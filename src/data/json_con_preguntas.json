@@ -1,0 +1,6208 @@
+[
+  {
+    "id": 1,
+    "text": "El cálculo relacional de tuplas se caracteriza por:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Ser un lenguaje procedimental"
+      },
+      {
+        "id": "B",
+        "text": "Indicar cómo obtener los datos"
+      },
+      {
+        "id": "C",
+        "text": "Ser un lenguaje declarativo"
+      },
+      {
+        "id": "D",
+        "text": "Trabajar únicamente con valores individuales"
+      }
+    ],
+    "correctOptionId": "C"
+  },
+  {
+    "id": 2,
+    "text": "¿Cuál JOIN devuelve únicamente las filas con coincidencias en ambas tablas?",
+    "options": [
+      {
+        "id": "A",
+        "text": "LEFT JOIN"
+      },
+      {
+        "id": "B",
+        "text": "RIGHT JOIN"
+      },
+      {
+        "id": "C",
+        "text": "FULL OUTER JOIN"
+      },
+      {
+        "id": "D",
+        "text": "INNER JOIN"
+      }
+    ],
+    "correctOptionId": "D"
+  },
+  {
+    "id": 3,
+    "text": "La sentencia SQL usada para modificar valores en tuplas existentes es:",
+    "options": [
+      {
+        "id": "A",
+        "text": "INSERT"
+      },
+      {
+        "id": "B",
+        "text": "UPDATE"
+      },
+      {
+        "id": "C",
+        "text": "DELETE"
+      },
+      {
+        "id": "D",
+        "text": "SELECT"
+      }
+    ],
+    "correctOptionId": "B"
+  },
+  {
+    "id": 4,
+    "text": "¿Qué es un sistema de información?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Un conjunto de documentos físicos para controlar procesos"
+      },
+      {
+        "id": "B",
+        "text": "Un conjunto de componentes que recolectan, procesan y distribuyen información"
+      },
+      {
+        "id": "C",
+        "text": "Un programa para gestionar datos únicamente"
+      },
+      {
+        "id": "D",
+        "text": "Un tipo de software financiero"
+      }
+    ],
+    "correctOptionId": "B"
+  },
+  {
+    "id": 5,
+    "text": "¿Cuál de los siguientes es un componente de un sistema de información?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Diagramas UML"
+      },
+      {
+        "id": "B",
+        "text": "Hardware"
+      },
+      {
+        "id": "C",
+        "text": "Motores eléctricos"
+      },
+      {
+        "id": "D",
+        "text": "Bases de datos gráficas"
+      }
+    ],
+    "correctOptionId": "B"
+  },
+  {
+    "id": 6,
+    "text": "La propiedad de los datos que indica que deben estar disponibles cuando se necesitan es:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Precisión"
+      },
+      {
+        "id": "B",
+        "text": "Calidad"
+      },
+      {
+        "id": "C",
+        "text": "Oportunidad"
+      },
+      {
+        "id": "D",
+        "text": "Seguridad"
+      }
+    ],
+    "correctOptionId": "C"
+  },
+  {
+    "id": 7,
+    "text": "Un sistema de bases de datos está gestionado por:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Un lenguaje de programación"
+      },
+      {
+        "id": "B",
+        "text": "Un SGBD"
+      },
+      {
+        "id": "C",
+        "text": "Un entorno de hardware gráfico"
+      },
+      {
+        "id": "D",
+        "text": "Un software antivirus"
+      }
+    ],
+    "correctOptionId": "B"
+  },
+  {
+    "id": 8,
+    "text": "En el modelo ER, una entidad se representa mediante:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Un rombo"
+      },
+      {
+        "id": "B",
+        "text": "Un óvalo"
+      },
+      {
+        "id": "C",
+        "text": "Un rectángulo"
+      },
+      {
+        "id": "D",
+        "text": "Un triángulo"
+      }
+    ],
+    "correctOptionId": "C"
+  },
+  {
+    "id": 9,
+    "text": "La cardinalidad 1:N indica que:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Una entidad se relaciona con exactamente una de otra"
+      },
+      {
+        "id": "B",
+        "text": "Muchas entidades se relacionan entre sí sin límites"
+      },
+      {
+        "id": "C",
+        "text": "Una entidad se relaciona con muchas de otra entidad"
+      },
+      {
+        "id": "D",
+        "text": "Ninguna entidad debe relacionarse"
+      }
+    ],
+    "correctOptionId": "C"
+  },
+  {
+    "id": 10,
+    "text": "La normalización busca principalmente:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Aumentar la cantidad de tablas"
+      },
+      {
+        "id": "B",
+        "text": "Disminuir la redundancia de datos"
+      },
+      {
+        "id": "C",
+        "text": "Eliminar todas las relaciones"
+      },
+      {
+        "id": "D",
+        "text": "Crear claves compuestas"
+      }
+    ],
+    "correctOptionId": "B"
+  },
+  {
+    "id": 11,
+    "text": "En un Data Warehouse con modelo estrella, un analista detecta que las consultas son  lentas al filtrar por atributos de una dimensión muy granular (por ejemplo,  DIM_CLIENTE con millones de filas). ¿Cuál es la acción más adecuada para mejorar el  rendimiento sin romper el diseño dimensional? ",
+    "options": [
+      {
+        "id": "A",
+        "text": "Normalizar completamente la dimensión y convertirla en un copo de nieve"
+      },
+      {
+        "id": "B",
+        "text": "Convertir la dimensión en una tabla de hechos para reducir tamaño"
+      },
+      {
+        "id": "C",
+        "text": "Crear jerarquías de atributos e índices específicos sobre dichas jerarquías"
+      },
+      {
+        "id": "D",
+        "text": "Eliminar atributos de la dimensión para hacerla más pequeña"
+      }
+    ],
+    "correctOptionId": "C"
+  },
+  {
+    "id": 12,
+    "text": "En una base OLTP altamente transaccional, se observa un incremento de deadlocks entre procesos simultáneos. ¿Cuál es la causa más probable?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Índices demasiado grandes que ralentizan el acceso secuencial"
+      },
+      {
+        "id": "B",
+        "text": "Acceso a tablas en distinto orden entre transacciones concurrentes"
+      },
+      {
+        "id": "C",
+        "text": "El servidor no tiene suficiente almacenamiento SSD"
+      },
+      {
+        "id": "D",
+        "text": "Exceso de normalización en tercera forma normal"
+      }
+    ],
+    "correctOptionId": "B"
+  },
+  {
+    "id": 13,
+    "text": "Durante la implementación de una arquitectura ETL distribuida, un ingeniero define  que la extracción debe hacerse desde múltiples fuentes heterogéneas vía ODBC,  JDBC y APIs REST. ¿Cuál es la razón clave para separar extracción y transformación en  ambientes distribuidos? ",
+    "options": [
+      {
+        "id": "A",
+        "text": "Evitar el uso de memoria en el servidor de base de datos"
+      },
+      {
+        "id": "B",
+        "text": "Reducir la latencia de almacenamiento local"
+      },
+      {
+        "id": "C",
+        "text": "Permitir paralelismo, control de fallos y orquestación por microservicios"
+      },
+      {
+        "id": "D",
+        "text": "Garantizar normalización en los modelos del DWH"
+      }
+    ],
+    "correctOptionId": "C"
+  },
+  {
+    "id": 14,
+    "text": "Un Data Mart de ventas se diseñó siguiendo un esquema Copo de Nieve. Sin embargo, los reportes tardan demasiado. ¿Cuál es la desventaja principal que se manifiesta en este caso?",
+    "options": [
+      {
+        "id": "A",
+        "text": "La agregación en los hechos se vuelve inconsistente"
+      },
+      {
+        "id": "B",
+        "text": "Las dimensiones normalizadas obligan a múltiples JOINs aumentando el tiempo de consulta"
+      },
+      {
+        "id": "C",
+        "text": "Los hechos pierden granularidad"
+      },
+      {
+        "id": "D",
+        "text": "Disminuye la integridad referencial del modelo"
+      }
+    ],
+    "correctOptionId": "B"
+  },
+  {
+    "id": 15,
+    "text": "En un sistema de bases de datos distribuidas heterogéneo federado, ¿qué característica es esencial para que los usuarios perciban una visión integrada de los  datos? ",
+    "options": [
+      {
+        "id": "A",
+        "text": "Que todos los nodos ejecuten el mismo DBMS"
+      },
+      {
+        "id": "B",
+        "text": "La existencia de un esquema global o vista lógica unificada"
+      },
+      {
+        "id": "C",
+        "text": "Que todos los nodos utilicen el mismo sistema operativo"
+      },
+      {
+        "id": "D",
+        "text": "Que todos los nodos tengan el mismo hardware y capacidad de almacenamiento"
+      }
+    ],
+    "correctOptionId": "B"
+  },
+  {
+    "id": 16,
+    "text": "Una organización decide aplicar fragmentación horizontal sobre una tabla de CLIENTES para distribuirla entre dos centros de datos: uno en Quito y otro en  Guayaquil. ¿Qué situación describe mejor este tipo de diseño? ",
+    "options": [
+      {
+        "id": "A",
+        "text": "Cada centro almacena columnas diferentes de la tabla CLIENTES"
+      },
+      {
+        "id": "B",
+        "text": "Cada centro almacena filas diferentes de la tabla CLIENTES según criterios"
+      },
+      {
+        "id": "C",
+        "text": "Cada centro almacena una copia completa de la tabla CLIENTES"
+      },
+      {
+        "id": "D",
+        "text": "La tabla CLIENTES se divide en múltiples DBMS sin ningún criterio lógico"
+      }
+    ],
+    "correctOptionId": "B"
+  },
+  {
+    "id": 17,
+    "text": "En un entorno con replicación asincrónica, ¿cuál es el riesgo más crítico desde el punto de vista de consistencia de datos?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Los nodos pueden dejar de comunicarse permanentemente"
+      },
+      {
+        "id": "B",
+        "text": "Los nodos secundarios podrían responder con datos desactualizados respecto al nodo primario"
+      },
+      {
+        "id": "C",
+        "text": "No es posible ejecutar transacciones distribuidas"
+      },
+      {
+        "id": "D",
+        "text": "No se pueden ejecutar consultas distribuidas entre nodos"
+      }
+    ],
+    "correctOptionId": "B"
+  },
+  {
+    "id": 18,
+    "text": "En un ambiente de bases de datos distribuidas heterogéneas múltiples (sin esquema  global), se quiere ejecutar consultas analíticas sobre datos repartidos en varios  DBMS distintos. ¿Cuál es el componente más importante para hacer posible esta  integración sin modificar las bases de datos originales? ",
+    "options": [
+      {
+        "id": "A",
+        "text": "Un sistema de archivos distribuido que unifique todos los discos"
+      },
+      {
+        "id": "B",
+        "text": "Un middleware o capa de integración que traduzca y orqueste consultas entre los distintos DBMS"
+      },
+      {
+        "id": "C",
+        "text": "Un único coordinador de transacciones 2PC"
+      },
+      {
+        "id": "D",
+        "text": "Replicación sincrónica de todos los datos hacia un solo nodo maestro"
+      }
+    ],
+    "correctOptionId": "B"
+  },
+  {
+    "id": 19,
+    "text": "En el proceso de abstracción de un modelo de datos para una universidad, se  identifican las entidades Persona, Estudiante, Docente y Administrativo. Todas  comparten atributos comunes, pero cada una tiene atributos propios. ¿Cuál es el  enfoque correcto en un modelo EER? ",
+    "options": [
+      {
+        "id": "A",
+        "text": "Crear cuatro entidades totalmente independientes sin relación entre sí"
+      },
+      {
+        "id": "B",
+        "text": "Definir Persona como supertipo y Estudiante, Docente y Administrativo como subtipos en una jerarquía de generalización/especialización"
+      },
+      {
+        "id": "C",
+        "text": "Definir solo la entidad Persona con todos los atributos (promedio, título, cargo) y dejar algunos en NULL según el caso"
+      },
+      {
+        "id": "D",
+        "text": "Unir Estudiante y Docente en una sola entidad, y Administrativo en otra, sin supertipo común"
+      }
+    ],
+    "correctOptionId": "B"
+  },
+  {
+    "id": 20,
+    "text": "Diseñas el backend analítico de una institución financiera con necesidades OLTP, análisis histórico y escalabilidad. ¿Cuál combinación de primitivas es la más adecuada? ",
+    "options": [
+      {
+        "id": "A",
+        "text": "Solo R: todo en un gran esquema normalizado para evitar redundancia"
+      },
+      {
+        "id": "B",
+        "text": "R + Di: OLTP normalizado y un Datawarehouse dimensional en un único servidor"
+      },
+      {
+        "id": "C",
+        "text": "R + Dt: OLTP normalizado replicado geográficamente, sin modelo dimensional"
+      },
+      {
+        "id": "D",
+        "text": "R + Di + Dt: OLTP normalizado, Datawarehouse dimensional y distribución/replicación entre nodos"
+      }
+    ],
+    "correctOptionId": "D"
+  },
+  {
+    "id": 21,
+    "text": "¿Qué efecto tiene la llamada al sistema fork() en un proceso en Linux?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Termina el proceso actual y lanza uno nuevo sin relación"
+      },
+      {
+        "id": "B",
+        "text": "Crea un nuevo hilo dentro del mismo proceso"
+      },
+      {
+        "id": "C",
+        "text": "Crea un proceso hijo duplicado del proceso actual"
+      },
+      {
+        "id": "D",
+        "text": "Reemplaza el proceso actual con un nuevo programa"
+      }
+    ],
+    "correctOptionId": "C"
+  },
+  {
+    "id": 22,
+    "text": "¿Qué técnica de planificación de CPU selecciona siempre el proceso con el menor tiempo estimado de ejecución?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Round Robin"
+      },
+      {
+        "id": "B",
+        "text": "Prioridades"
+      },
+      {
+        "id": "C",
+        "text": "FIFO"
+      },
+      {
+        "id": "D",
+        "text": "SJF (Shortest Job First)"
+      }
+    ],
+    "correctOptionId": "D"
+  },
+  {
+    "id": 23,
+    "text": "¿Qué método de sincronización evita que dos procesos accedan simultáneamente a un recurso compartido?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Interrupciones de hardware"
+      },
+      {
+        "id": "B",
+        "text": "Sección crítica y exclusión mutua"
+      },
+      {
+        "id": "C",
+        "text": "Fragmentación externa"
+      },
+      {
+        "id": "D",
+        "text": "Segmentación"
+      }
+    ],
+    "correctOptionId": "B"
+  },
+  {
+    "id": 24,
+    "text": "El bloque de control de procesos (PCB) almacena principalmente…",
+    "options": [
+      {
+        "id": "A",
+        "text": "La lista completa de programas instalados"
+      },
+      {
+        "id": "B",
+        "text": "El estado y la información necesaria para gestionar un proceso"
+      },
+      {
+        "id": "C",
+        "text": "El tamaño total del disco duro"
+      },
+      {
+        "id": "D",
+        "text": "El historial de comandos del usuario"
+      }
+    ],
+    "correctOptionId": "B"
+  },
+  {
+    "id": 25,
+    "text": "¿Qué estado de un proceso indica que está preparado para ejecutarse cuando la CPU esté disponible?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Ejecutando"
+      },
+      {
+        "id": "B",
+        "text": "Listo (Ready)"
+      },
+      {
+        "id": "C",
+        "text": "Bloqueado"
+      },
+      {
+        "id": "D",
+        "text": "Finalizado"
+      }
+    ],
+    "correctOptionId": "B"
+  },
+  {
+    "id": 26,
+    "text": "En un sistema con múltiples hilos de ejecución, un hilo (thread) se define como…",
+    "options": [
+      {
+        "id": "A",
+        "text": "Un proceso que contiene otros procesos"
+      },
+      {
+        "id": "B",
+        "text": "Un programa almacenado en memoria secundaria"
+      },
+      {
+        "id": "C",
+        "text": "La unidad básica de utilización de CPU dentro de un proceso"
+      },
+      {
+        "id": "D",
+        "text": "Una interrupción del sistema operativo"
+      }
+    ],
+    "correctOptionId": "C"
+  },
+  {
+    "id": 27,
+    "text": "¿Qué técnica de gestión de memoria divide los procesos en bloques del mismo tamaño?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Segmentación"
+      },
+      {
+        "id": "B",
+        "text": "Paginación"
+      },
+      {
+        "id": "C",
+        "text": "Swapping"
+      },
+      {
+        "id": "D",
+        "text": "Fragmentación externa"
+      }
+    ],
+    "correctOptionId": "B"
+  },
+  {
+    "id": 28,
+    "text": "En la gestión de entrada y salida, los controladores (drivers) funcionan como…",
+    "options": [
+      {
+        "id": "A",
+        "text": "Proveedores de memoria adicional"
+      },
+      {
+        "id": "B",
+        "text": "Aplicaciones ejecutadas por el usuario"
+      },
+      {
+        "id": "C",
+        "text": "Interfaces entre el sistema operativo y los dispositivos físicos"
+      },
+      {
+        "id": "D",
+        "text": "Protocolos de red"
+      }
+    ],
+    "correctOptionId": "C"
+  },
+  {
+    "id": 29,
+    "text": "¿Cuál de los siguientes es un principio fundamental del software libre?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Acceso limitado al código fuente"
+      },
+      {
+        "id": "B",
+        "text": "Licencias exclusivas de uso comercial"
+      },
+      {
+        "id": "C",
+        "text": "Libertad para estudiar, modificar y distribuir el código"
+      },
+      {
+        "id": "D",
+        "text": "Prohibición total de redistribución"
+      }
+    ],
+    "correctOptionId": "C"
+  },
+  {
+    "id": 30,
+    "text": "¿Qué mecanismo utiliza el sistema operativo para garantizar la seguridad y evitar accesos no autorizados?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Compilación dinámica"
+      },
+      {
+        "id": "B",
+        "text": "Control de permisos y autenticación"
+      },
+      {
+        "id": "C",
+        "text": "Fragmentación interna"
+      },
+      {
+        "id": "D",
+        "text": "Multiprogramación"
+      }
+    ],
+    "correctOptionId": "B"
+  },
+  {
+    "id": 31,
+    "text": "¿Cuál es uno de los principales objetivos de las pruebas de software?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Eliminar el código no utilizado."
+      },
+      {
+        "id": "B",
+        "text": "Demostrar que el software nunca falla."
+      },
+      {
+        "id": "C",
+        "text": "Identificar defectos y mejorar la calidad del producto."
+      },
+      {
+        "id": "D",
+        "text": "Sustituir la fase de desarrollo."
+      }
+    ],
+    "correctOptionId": "C"
+  },
+  {
+    "id": 32,
+    "text": "¿Qué relación existe entre calidad de software y pruebas?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Las pruebas disminuyen la calidad del software."
+      },
+      {
+        "id": "B",
+        "text": "Las pruebas garantizan una interfaz atractiva."
+      },
+      {
+        "id": "C",
+        "text": "Las pruebas son una herramienta para evaluar y asegurar la calidad."
+      },
+      {
+        "id": "D",
+        "text": "Las pruebas son innecesarias si el equipo es experimentado."
+      }
+    ],
+    "correctOptionId": "C"
+  },
+  {
+    "id": 33,
+    "text": "¿Cuál de los siguientes es un principio fundamental de las pruebas de software?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Probar todo es posible."
+      },
+      {
+        "id": "B",
+        "text": "Las pruebas no deben repetirse."
+      },
+      {
+        "id": "C",
+        "text": "La agrupación de errores tiende a concentrarse."
+      },
+      {
+        "id": "D",
+        "text": "Si pasa una vez, ya no necesita volver a probarse."
+      }
+    ],
+    "correctOptionId": "C"
+  },
+  {
+    "id": 34,
+    "text": "¿Cuál es el rol principal del ingeniero de pruebas?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Diseñar arquitecturas escalables."
+      },
+      {
+        "id": "B",
+        "text": "Gestionar bases de datos."
+      },
+      {
+        "id": "C",
+        "text": "Definir, ejecutar y documentar casos de prueba."
+      },
+      {
+        "id": "D",
+        "text": "Implementar redes seguras."
+      }
+    ],
+    "correctOptionId": "C"
+  },
+  {
+    "id": 35,
+    "text": "¿Cuál es una diferencia clave entre verificación y validación?",
+    "options": [
+      {
+        "id": "A",
+        "text": "La verificación implica probar el hardware únicamente."
+      },
+      {
+        "id": "B",
+        "text": "La validación se realiza solo con el código fuente."
+      },
+      {
+        "id": "C",
+        "text": "La verificación comprueba que el producto se construye correctamente."
+      },
+      {
+        "id": "D",
+        "text": "La validación se enfoca en fases iniciales del desarrollo."
+      }
+    ],
+    "correctOptionId": "C"
+  },
+  {
+    "id": 36,
+    "text": "¿Qué representa la técnica de caja blanca?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Se basa en la exploración de la interfaz gráfica. "
+      },
+      {
+        "id": "B",
+        "text": "Se enfoca en los requerimientos sin ver el código"
+      },
+      {
+        "id": "C",
+        "text": "Implica el conocimiento del código fuente."
+      },
+      {
+        "id": "D",
+        "text": "Se utiliza únicamente para pruebas de rendimiento."
+      }
+    ],
+    "correctOptionId": "C"
+  },
+  {
+    "id": 37,
+    "text": "¿Cuál es la causa más común de errores en el software?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Fallas del sistema operativo. "
+      },
+      {
+        "id": "B",
+        "text": "Mal uso de la memoria. "
+      },
+      {
+        "id": "C",
+        "text": "Errores humanos en el desarrollo."
+      },
+      {
+        "id": "D",
+        "text": "Actualizaciones automáticas."
+      }
+    ],
+    "correctOptionId": "C"
+  },
+  {
+    "id": 38,
+    "text": "¿Qué describe mejor a una revisión \"walkthrough\"?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Una técnica de análisis de rendimiento."
+      },
+      {
+        "id": "B",
+        "text": "Una ejecución de código automatizada."
+      },
+      {
+        "id": "C",
+        "text": "Una revisión informal guiada por el autor del artefacto."
+      },
+      {
+        "id": "D",
+        "text": "Un tipo de prueba de integración."
+      }
+    ],
+    "correctOptionId": "C"
+  },
+  {
+    "id": 39,
+    "text": "¿Cuál de las siguientes afirmaciones describe una prueba de regresión?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Evalúa el rendimiento con muchos usuarios concurrentes."
+      },
+      {
+        "id": "B",
+        "text": "Valida que cambios recientes no hayan afectado funciones previas."
+      },
+      {
+        "id": "C",
+        "text": "Mide la usabilidad del sistema."
+      },
+      {
+        "id": "D",
+        "text": "Es una prueba de aceptación temprana."
+      }
+    ],
+    "correctOptionId": "B"
+  },
+  {
+    "id": 40,
+    "text": "¿Cuál es una limitación común de las pruebas unitarias?",
+    "options": [
+      {
+        "id": "A",
+        "text": "No pueden automatizarse."
+      },
+      {
+        "id": "B",
+        "text": "No se pueden ejecutar en proyectos grandes."
+      },
+      {
+        "id": "C",
+        "text": "No detectan fallos de integración entre módulos."
+      },
+      {
+        "id": "D",
+        "text": "Solo prueban aplicaciones web."
+      }
+    ],
+    "correctOptionId": "C"
+  },
+  {
+    "id": 41,
+    "text": "¿Qué caracteriza a una prueba de aceptación alfa?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Se realiza por usuarios reales en entornos reales."
+      },
+      {
+        "id": "B",
+        "text": "Se lleva a cabo por los desarrolladores de manera informal."
+      },
+      {
+        "id": "C",
+        "text": "Se ejecuta en paralelo con el desarrollo."
+      },
+      {
+        "id": "D",
+        "text": "Se realiza internamente con participación del cliente."
+      }
+    ],
+    "correctOptionId": "D"
+  },
+  {
+    "id": 42,
+    "text": "¿Qué se entiende por TDD (Test Driven Development)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Un enfoque donde se escribe código y luego se prueba."
+      },
+      {
+        "id": "B",
+        "text": "Un enfoque de pruebas no automatizadas."
+      },
+      {
+        "id": "C",
+        "text": "Desarrollo dirigido por pruebas, donde se escriben pruebas antes del código."
+      },
+      {
+        "id": "D",
+        "text": "Una técnica exclusiva de pruebas manuales."
+      }
+    ],
+    "correctOptionId": "C"
+  },
+  {
+    "id": 43,
+    "text": "¿Cuál es el propósito del plan de pruebas?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Eliminar la necesidad de pruebas."
+      },
+      {
+        "id": "B",
+        "text": "Registrar únicamente errores encontrados."
+      },
+      {
+        "id": "C",
+        "text": "Definir estrategia, alcance y recursos necesarios para probar."
+      },
+      {
+        "id": "D",
+        "text": "Generar el informe final de pruebas."
+      }
+    ],
+    "correctOptionId": "C"
+  },
+  {
+    "id": 44,
+    "text": "¿Qué herramienta se utiliza para pruebas de carga y rendimiento?",
+    "options": [
+      {
+        "id": "A",
+        "text": "JUnit"
+      },
+      {
+        "id": "B",
+        "text": "Jenkins"
+      },
+      {
+        "id": "C",
+        "text": "Postman"
+      },
+      {
+        "id": "D",
+        "text": "JMeter"
+      }
+    ],
+    "correctOptionId": "D"
+  },
+  {
+    "id": 45,
+    "text": "¿Qué es una herramienta de gestión de pruebas?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Un sistema de versionado de código. "
+      },
+      {
+        "id": "B",
+        "text": "Un entorno para desarrollar aplicaciones móviles. "
+      },
+      {
+        "id": "C",
+        "text": "Un sistema para organizar y planificar actividades de prueba."
+      },
+      {
+        "id": "D",
+        "text": "Una base de datos relacional. "
+      }
+    ],
+    "correctOptionId": "C"
+  },
+  {
+    "id": 46,
+    "text": "¿Cuál es la principal función del atributo aria-label en HTML?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Aplicar estilos directamente al texto"
+      },
+      {
+        "id": "B",
+        "text": "Proporcionar accesibilidad mediante descripciones"
+      },
+      {
+        "id": "C",
+        "text": "Aumentar el tamaño del campo de entrada"
+      },
+      {
+        "id": "D",
+        "text": "Enlazar hojas de estilo"
+      }
+    ],
+    "correctOptionId": "B"
+  },
+  {
+    "id": 47,
+    "text": "¿Qué atributo se usa en un formulario para especificar la URL de destino?",
+    "options": [
+      {
+        "id": "A",
+        "text": "target"
+      },
+      {
+        "id": "B",
+        "text": "action"
+      },
+      {
+        "id": "C",
+        "text": "href"
+      },
+      {
+        "id": "D",
+        "text": "method"
+      }
+    ],
+    "correctOptionId": "B"
+  },
+  {
+    "id": 48,
+    "text": "¿Qué etiqueta HTML permite definir contenido reutilizable sin mostrarlo de inmediato?",
+    "options": [
+      {
+        "id": "A",
+        "text": "<article>"
+      },
+      {
+        "id": "B",
+        "text": "<section>"
+      },
+      {
+        "id": "C",
+        "text": "<div>"
+      },
+      {
+        "id": "D",
+        "text": "<template>"
+      }
+    ],
+    "correctOptionId": "D"
+  },
+  {
+    "id": 49,
+    "text": "¿Qué valor de rel impide que los motores de búsqueda sigan un enlace?",
+    "options": [
+      {
+        "id": "A",
+        "text": "nofollow"
+      },
+      {
+        "id": "B",
+        "text": "noindex"
+      },
+      {
+        "id": "C",
+        "text": "external"
+      },
+      {
+        "id": "D",
+        "text": "nofollowing"
+      }
+    ],
+    "correctOptionId": "A"
+  },
+  {
+    "id": 50,
+    "text": "¿Qué atributo permite validar un campo con expresiones regulares en HTML5?",
+    "options": [
+      {
+        "id": "A",
+        "text": "pattern"
+      },
+      {
+        "id": "B",
+        "text": "regex"
+      },
+      {
+        "id": "C",
+        "text": "validate"
+      },
+      {
+        "id": "D",
+        "text": "expresión"
+      }
+    ],
+    "correctOptionId": "A"
+  },
+  {
+    "id": 51,
+    "text": "¿Cuál es el propósito de la propiedad will-change en CSS?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Eliminar transiciones"
+      },
+      {
+        "id": "B",
+        "text": "Optimizar el rendimiento para cambios futuros"
+      },
+      {
+        "id": "C",
+        "text": "Ocultar elementos innecesarios"
+      },
+      {
+        "id": "D",
+        "text": "Alinear contenido automáticamente"
+      }
+    ],
+    "correctOptionId": "B"
+  },
+  {
+    "id": 52,
+    "text": "¿Qué unidad de medida es relativa al ancho de la ventana del navegador?",
+    "options": [
+      {
+        "id": "A",
+        "text": "em"
+      },
+      {
+        "id": "B",
+        "text": "rem"
+      },
+      {
+        "id": "C",
+        "text": "vw"
+      },
+      {
+        "id": "D",
+        "text": "ch"
+      }
+    ],
+    "correctOptionId": "C"
+  },
+  {
+    "id": 53,
+    "text": "Pregunta: ¿Qué propiedad evita el colapso de márgenes y permite encerrar elementos flotantes?",
+    "options": [
+      {
+        "id": "A",
+        "text": "display: block"
+      },
+      {
+        "id": "B",
+        "text": "clear: both"
+      },
+      {
+        "id": "C",
+        "text": "overflow: hidden"
+      },
+      {
+        "id": "D",
+        "text": "position: relative"
+      }
+    ],
+    "correctOptionId": "C"
+  },
+  {
+    "id": 54,
+    "text": "¿Qué valor de position permite que un elemento permanezca visible durante el scroll?",
+    "options": [
+      {
+        "id": "A",
+        "text": "static"
+      },
+      {
+        "id": "B",
+        "text": "absolute"
+      },
+      {
+        "id": "C",
+        "text": "fixed"
+      },
+      {
+        "id": "D",
+        "text": "relative"
+      }
+    ],
+    "correctOptionId": "C"
+  },
+  {
+    "id": 55,
+    "text": "¿Cuál es el efecto de z-index en un elemento posicionado?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Cambia el tamaño"
+      },
+      {
+        "id": "B",
+        "text": "Ajusta la rotación"
+      },
+      {
+        "id": "C",
+        "text": "Controla el orden de apilamiento"
+      },
+      {
+        "id": "D",
+        "text": "Ajusta el padding"
+      }
+    ],
+    "correctOptionId": "C"
+  },
+  {
+    "id": 56,
+    "text": "¿Qué representa una Promise en JavaScript?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Una función repetitiva"
+      },
+      {
+        "id": "B",
+        "text": "Una operación asincrónica que puede completarse o fallar"
+      },
+      {
+        "id": "C",
+        "text": "Una variable constante"
+      },
+      {
+        "id": "D",
+        "text": "Una API externa"
+      }
+    ],
+    "correctOptionId": "B"
+  },
+  {
+    "id": 57,
+    "text": "¿Qué método convierte un objeto en una cadena JSON?",
+    "options": [
+      {
+        "id": "A",
+        "text": "JSON.parse()"
+      },
+      {
+        "id": "B",
+        "text": "JSON.stringify()"
+      },
+      {
+        "id": "C",
+        "text": "toString()"
+      },
+      {
+        "id": "D",
+        "text": "Object.toJson()"
+      }
+    ],
+    "correctOptionId": "B"
+  },
+  {
+    "id": 58,
+    "text": "¿Qué significa \"hoisting\" en JavaScript?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Eliminar variables duplicadas"
+      },
+      {
+        "id": "B",
+        "text": "Elevar declaraciones al principio de su contexto"
+      },
+      {
+        "id": "C",
+        "text": "Separar funciones del código"
+      },
+      {
+        "id": "D",
+        "text": "Priorizar llamadas AJAX"
+      }
+    ],
+    "correctOptionId": "B"
+  },
+  {
+    "id": 59,
+    "text": "¿Cuál es el resultado de Array.prototype.map()?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Un número"
+      },
+      {
+        "id": "B",
+        "text": "Un nuevo array con los resultados de la función aplicada"
+      },
+      {
+        "id": "C",
+        "text": "Un string"
+      },
+      {
+        "id": "D",
+        "text": "Una copia del array original"
+      }
+    ],
+    "correctOptionId": "B"
+  },
+  {
+    "id": 60,
+    "text": "¿Qué hace el método bind() en una función?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Elimina this"
+      },
+      {
+        "id": "B",
+        "text": "Ejecuta la función inmediatamente"
+      },
+      {
+        "id": "C",
+        "text": "Fija el contexto this de la función"
+      },
+      {
+        "id": "D",
+        "text": "Clona la función"
+      }
+    ],
+    "correctOptionId": "C"
+  },
+  {
+    "id": 61,
+    "text": "¿Qué sistema utiliza el estilo APA para la citación en el texto?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Autor-página"
+      },
+      {
+        "id": "B",
+        "text": "Autor-año"
+      },
+      {
+        "id": "C",
+        "text": "Número-página"
+      },
+      {
+        "id": "D",
+        "text": "Abreviatura-numero"
+      }
+    ],
+    "correctOptionId": "B"
+  },
+  {
+    "id": 62,
+    "text": "¿Cuál es el formato para una cita textual corta?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Menos de 20 palabras y cursiva"
+      },
+      {
+        "id": "B",
+        "text": "Menos de 30 palabras y negrita"
+      },
+      {
+        "id": "C",
+        "text": "Menos de 40 palabras y entre comillas"
+      },
+      {
+        "id": "D",
+        "text": "Más de 50 palabras y con sangría"
+      }
+    ],
+    "correctOptionId": "C"
+  },
+  {
+    "id": 63,
+    "text": "¿Qué debe incluir una cita textual larga?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Comillas y letra cursiva"
+      },
+      {
+        "id": "B",
+        "text": "Texto separado, sin comillas, con sangría de 1.27 cm"
+      },
+      {
+        "id": "C",
+        "text": "Texto en negrita con letra más grande"
+      },
+      {
+        "id": "D",
+        "text": "Texto subrayado y centrado"
+      }
+    ],
+    "correctOptionId": "B"
+  },
+  {
+    "id": 64,
+    "text": "¿Cuándo se utiliza \"et al.\" en una cita?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Para citar más de dos autores"
+      },
+      {
+        "id": "B",
+        "text": "Para citar autores corporativos"
+      },
+      {
+        "id": "C",
+        "text": "Para citar tres o más autores"
+      },
+      {
+        "id": "D",
+        "text": "Para todas las citas"
+      }
+    ],
+    "correctOptionId": "C"
+  },
+  {
+    "id": 65,
+    "text": "¿Qué se debe hacer cuando se citan dos autores con el mismo apellido?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Usar solo el apellido"
+      },
+      {
+        "id": "B",
+        "text": "Incluir las iniciales de sus nombres"
+      },
+      {
+        "id": "C",
+        "text": "Colocar los apellidos en cursiva"
+      },
+      {
+        "id": "D",
+        "text": "Usar la palabra \"y\" entre los apellidos"
+      }
+    ],
+    "correctOptionId": "B"
+  },
+  {
+    "id": 66,
+    "text": "¿Qué se utiliza para indicar una fuente sin fecha?",
+    "options": [
+      {
+        "id": "A",
+        "text": "(s.f.)"
+      },
+      {
+        "id": "B",
+        "text": "(n.d.)"
+      },
+      {
+        "id": "C",
+        "text": "(sin fecha)"
+      },
+      {
+        "id": "D",
+        "text": "(desconocido)"
+      }
+    ],
+    "correctOptionId": "A"
+  },
+  {
+    "id": 67,
+    "text": "¿Qué tipo de cita no requiere referencia?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Citas de fuentes secundarias"
+      },
+      {
+        "id": "B",
+        "text": "Citas de obras clásicas"
+      },
+      {
+        "id": "C",
+        "text": "Citas de publicaciones periódicas"
+      },
+      {
+        "id": "D",
+        "text": "Citas de sitios web"
+      }
+    ],
+    "correctOptionId": "B"
+  },
+  {
+    "id": 68,
+    "text": "¿Cuál es la diferencia entre referencias y bibliografía en APA?",
+    "options": [
+      {
+        "id": "A",
+        "text": "La bibliografía incluye solo las fuentes citadas"
+      },
+      {
+        "id": "B",
+        "text": "Las referencias incluyen todas las fuentes investigadas"
+      },
+      {
+        "id": "C",
+        "text": "La bibliografía incluye fuentes citadas y no citadas"
+      },
+      {
+        "id": "D",
+        "text": "Las referencias no requieren formato específico"
+      }
+    ],
+    "correctOptionId": "C"
+  },
+  {
+    "id": 69,
+    "text": "¿Cuál es el formato correcto para una cita narrativa de un solo autor?",
+    "options": [
+      {
+        "id": "A",
+        "text": "(López, 2020)"
+      },
+      {
+        "id": "B",
+        "text": "López (2020)"
+      },
+      {
+        "id": "C",
+        "text": "(2020, López)"
+      },
+      {
+        "id": "D",
+        "text": "López - 2020"
+      }
+    ],
+    "correctOptionId": "B"
+  },
+  {
+    "id": 70,
+    "text": "¿Qué se debe incluir en la referencia de un libro?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Año y país de publicación"
+      },
+      {
+        "id": "B",
+        "text": "Título, autor y ciudad de publicación"
+      },
+      {
+        "id": "C",
+        "text": "Autor, año, título y editorial"
+      },
+      {
+        "id": "D",
+        "text": "Solo el autor y título"
+      }
+    ],
+    "correctOptionId": "C"
+  },
+  {
+    "id": 71,
+    "text": "¿Cómo se ordenan las referencias en la lista?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Por fecha de publicación"
+      },
+      {
+        "id": "B",
+        "text": "Por título de la obra"
+      },
+      {
+        "id": "C",
+        "text": "Por orden alfabético del apellido del autor"
+      },
+      {
+        "id": "D",
+        "text": "Por tipo de fuente"
+      }
+    ],
+    "correctOptionId": "C"
+  },
+  {
+    "id": 72,
+    "text": "¿Cuál es el formato correcto para una cita de un autor corporativo con sigla?",
+    "options": [
+      {
+        "id": "A",
+        "text": "(OMS, 2020)"
+      },
+      {
+        "id": "B",
+        "text": "OMS, 2020"
+      },
+      {
+        "id": "C",
+        "text": "(Organización Mundial de la Salud, 2020)"
+      },
+      {
+        "id": "D",
+        "text": "Salud, OMS, 2020"
+      }
+    ],
+    "correctOptionId": "A"
+  },
+  {
+    "id": 73,
+    "text": "¿En qué casos se utiliza una sangría francesa?",
+    "options": [
+      {
+        "id": "A",
+        "text": "En citas largas"
+      },
+      {
+        "id": "B",
+        "text": "En el formato de referencias"
+      },
+      {
+        "id": "C",
+        "text": "En títulos de secciones"
+      },
+      {
+        "id": "D",
+        "text": "En citas parentéticas"
+      }
+    ],
+    "correctOptionId": "B"
+  },
+  {
+    "id": 74,
+    "text": "¿Qué se hace si una fuente tiene más de 20 autores?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Se listan todos los autores"
+      },
+      {
+        "id": "B",
+        "text": "Se omiten los autores después del 19 y se usa \"et al.\""
+      },
+      {
+        "id": "C",
+        "text": "Se citan solo los tres primeros"
+      },
+      {
+        "id": "D",
+        "text": "Se cita solo el primer autor"
+      }
+    ],
+    "correctOptionId": "B"
+  },
+  {
+    "id": 75,
+    "text": "¿Cómo se cita una obra sin autor?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Usando \"Anónimo\""
+      },
+      {
+        "id": "B",
+        "text": "Usando el título de la obra"
+      },
+      {
+        "id": "C",
+        "text": "Usando \"Desconocido\""
+      },
+      {
+        "id": "D",
+        "text": "Usando el nombre del editor"
+      }
+    ],
+    "correctOptionId": "B"
+  },
+  {
+    "id": 76,
+    "text": "¿Qué elemento no se incluye en las referencias de un libro en APA 7ma edición?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Nombre del autor"
+      },
+      {
+        "id": "B",
+        "text": "Ciudad de publicación"
+      },
+      {
+        "id": "C",
+        "text": "Título del libro"
+      },
+      {
+        "id": "D",
+        "text": "Editorial"
+      }
+    ],
+    "correctOptionId": "B"
+  },
+  {
+    "id": 77,
+    "text": "¿Cuál es el formato correcto para citar un video en línea?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Apellido, Año, URL"
+      },
+      {
+        "id": "B",
+        "text": "Título del video, fecha, autor"
+      },
+      {
+        "id": "C",
+        "text": "Apellido, título del video, fuente, URL"
+      },
+      {
+        "id": "D",
+        "text": "URL, fecha, autor"
+      }
+    ],
+    "correctOptionId": "C"
+  },
+  {
+    "id": 78,
+    "text": "¿Cómo se citan varias obras del mismo autor con igual fecha?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Usando números romanos"
+      },
+      {
+        "id": "B",
+        "text": "Agregando letras al año (a, b, c)"
+      },
+      {
+        "id": "C",
+        "text": "Usando comillas dobles"
+      },
+      {
+        "id": "D",
+        "text": "Incluyendo el título de la obra"
+      }
+    ],
+    "correctOptionId": "B"
+  },
+  {
+    "id": 79,
+    "text": "¿Qué se hace si la cita no tiene número de página?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Se omite la cita"
+      },
+      {
+        "id": "B",
+        "text": "Se usa el número del párrafo"
+      },
+      {
+        "id": "C",
+        "text": "Se coloca \"sin página\""
+      },
+      {
+        "id": "D",
+        "text": "Se coloca \"página desconocida\""
+      }
+    ],
+    "correctOptionId": "B"
+  },
+  {
+    "id": 80,
+    "text": "¿Qué tipo de cita enfatiza el autor?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Cita narrativa"
+      },
+      {
+        "id": "B",
+        "text": "Cita parentética"
+      },
+      {
+        "id": "C",
+        "text": "Cita directa"
+      },
+      {
+        "id": "D",
+        "text": "Parafraseo"
+      }
+    ],
+    "correctOptionId": "A"
+  },
+  {
+    "id": 81,
+    "text": "21. ¿En qué idioma se deben adaptar las normas de citación según el documento?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Inglés"
+      },
+      {
+        "id": "B",
+        "text": "Español"
+      },
+      {
+        "id": "C",
+        "text": "Francés"
+      },
+      {
+        "id": "D",
+        "text": "Portugués"
+      }
+    ],
+    "correctOptionId": "B"
+  },
+  {
+    "id": 82,
+    "text": "¿Qué tipo de fuente se recomienda utilizar para citas textuales?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Arial 14 puntos"
+      },
+      {
+        "id": "B",
+        "text": "Times New Roman 12 puntos"
+      },
+      {
+        "id": "C",
+        "text": "Calibri 11 puntos"
+      },
+      {
+        "id": "D",
+        "text": "Georgia 10 puntos"
+      }
+    ],
+    "correctOptionId": "B"
+  },
+  {
+    "id": 83,
+    "text": "¿Qué palabra se usa para indicar una traducción en la referencia?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Traducido por"
+      },
+      {
+        "id": "B",
+        "text": "[Trad.]"
+      },
+      {
+        "id": "C",
+        "text": "Translated"
+      },
+      {
+        "id": "D",
+        "text": "Versión traducida"
+      }
+    ],
+    "correctOptionId": "B"
+  },
+  {
+    "id": 84,
+    "text": "¿Cómo se indica una cita de material audiovisual?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Usando \"p.\" para el tiempo"
+      },
+      {
+        "id": "B",
+        "text": "Usando la marca de tiempo (minuto:segundo)"
+      },
+      {
+        "id": "C",
+        "text": "Usando el año de la producción"
+      },
+      {
+        "id": "D",
+        "text": "Usando el nombre del director"
+      }
+    ],
+    "correctOptionId": "B"
+  },
+  {
+    "id": 85,
+    "text": "¿Qué tipo de citas requieren el uso de \"pp.\"?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Citas de un solo párrafo"
+      },
+      {
+        "id": "B",
+        "text": "Citas con más de una página"
+      },
+      {
+        "id": "C",
+        "text": "Citas de menos de 40 palabras"
+      },
+      {
+        "id": "D",
+        "text": "Citas sin autor"
+      }
+    ],
+    "correctOptionId": "B"
+  },
+  {
+    "id": 86,
+    "text": "¿Qué es un abstract en un artículo científico?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Un resumen breve y autónomo del manuscrito."
+      },
+      {
+        "id": "B",
+        "text": "Una parte opcional del manuscrito."
+      },
+      {
+        "id": "C",
+        "text": "Una lista de referencias del estudio."
+      },
+      {
+        "id": "D",
+        "text": "Un documento separado del artículo."
+      }
+    ],
+    "correctOptionId": "A"
+  },
+  {
+    "id": 87,
+    "text": "¿Cuál de los siguientes NO es un tipo de abstract?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Descriptivo."
+      },
+      {
+        "id": "B",
+        "text": "Informativo."
+      },
+      {
+        "id": "C",
+        "text": "Extensivo."
+      },
+      {
+        "id": "D",
+        "text": "Destacado."
+      }
+    ],
+    "correctOptionId": "C"
+  },
+  {
+    "id": 88,
+    "text": "¿Qué estructura suele seguir un abstract estructurado?",
+    "options": [
+      {
+        "id": "A",
+        "text": "IMRAD (Introducción, Metodología, Resultados y Discusión)."
+      },
+      {
+        "id": "B",
+        "text": "Título, Autores, Referencias, Conclusiones."
+      },
+      {
+        "id": "C",
+        "text": "Introducción, Resultados, Análisis, Bibliografía."
+      },
+      {
+        "id": "D",
+        "text": "Propósito, Métodos, Resultados, Citas."
+      }
+    ],
+    "correctOptionId": "A"
+  },
+  {
+    "id": 89,
+    "text": "¿Qué característica NO es parte de un buen abstract?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Conciso."
+      },
+      {
+        "id": "B",
+        "text": "Claro."
+      },
+      {
+        "id": "C",
+        "text": "Complejo."
+      },
+      {
+        "id": "D",
+        "text": "Crítico."
+      }
+    ],
+    "correctOptionId": "C"
+  },
+  {
+    "id": 90,
+    "text": "¿Cuál es la principal función de un abstract?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Proporcionar una lista detallada de referencias."
+      },
+      {
+        "id": "B",
+        "text": "Atraer al lector y proporcionar un resumen del estudio."
+      },
+      {
+        "id": "C",
+        "text": "Presentar los resultados en detalle con gráficos."
+      },
+      {
+        "id": "D",
+        "text": "Discutir a fondo la metodología utilizada"
+      }
+    ],
+    "correctOptionId": "B"
+  },
+  {
+    "id": 91,
+    "text": "¿Cuál fue la primera revista en publicar un abstract en formato de un solo párrafo?",
+    "options": [
+      {
+        "id": "A",
+        "text": "The Lancet."
+      },
+      {
+        "id": "B",
+        "text": "Canadian Medical Association Journal."
+      },
+      {
+        "id": "C",
+        "text": "Nature."
+      },
+      {
+        "id": "D",
+        "text": "Science."
+      }
+    ],
+    "correctOptionId": "B"
+  },
+  {
+    "id": 92,
+    "text": "¿Qué debe incluir un abstract estructurado en su sección de \"Resultados\"?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Solo una descripción general del estudio."
+      },
+      {
+        "id": "B",
+        "text": "Los hallazgos más relevantes, incluyendo datos estadísticos clave."
+      },
+      {
+        "id": "C",
+        "text": "Un análisis profundo de la literatura previa."
+      },
+      {
+        "id": "D",
+        "text": "Comentarios de otros investigadores sobre el tema."
+      }
+    ],
+    "correctOptionId": "B"
+  },
+  {
+    "id": 93,
+    "text": "¿Por qué un abstract es crucial para la indexación de un artículo?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Porque contiene citas de otros trabajos."
+      },
+      {
+        "id": "B",
+        "text": "Porque ayuda a los lectores a decidir si leer el artículo completo."
+      },
+      {
+        "id": "C",
+        "text": "Porque resume la bibliografía utilizada."
+      },
+      {
+        "id": "D",
+        "text": "Porque reemplaza la introducción del artículo."
+      }
+    ],
+    "correctOptionId": "B"
+  },
+  {
+    "id": 94,
+    "text": "¿Cuál de los siguientes NO debe incluirse en un abstract?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Abreviaciones no explicadas."
+      },
+      {
+        "id": "B",
+        "text": "Resultados clave del estudio."
+      },
+      {
+        "id": "C",
+        "text": "Conclusiones del estudio."
+      },
+      {
+        "id": "D",
+        "text": "Recomendaciones basadas en los hallazgos."
+      }
+    ],
+    "correctOptionId": "A"
+  },
+  {
+    "id": 95,
+    "text": "¿Qué diferencia hay entre un abstract para un congreso y uno para una revista?",
+    "options": [
+      {
+        "id": "A",
+        "text": "En los congresos, el abstract puede incluir tablas o figuras."
+      },
+      {
+        "id": "B",
+        "text": "No hay diferencia entre ambos formatos."
+      },
+      {
+        "id": "C",
+        "text": "En un congreso, el abstract es más extenso que en una revista."
+      },
+      {
+        "id": "D",
+        "text": "Los abstracts de congresos no tienen límite de palabras."
+      }
+    ],
+    "correctOptionId": "A"
+  },
+  {
+    "id": 96,
+    "text": "¿Qué es un dato en estadística?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Un número aleatorio sin contexto."
+      },
+      {
+        "id": "B",
+        "text": "Un conjunto de información sin procesar."
+      },
+      {
+        "id": "C",
+        "text": "Un gráfico que resume información."
+      },
+      {
+        "id": "D",
+        "text": "Una medida de centralización."
+      }
+    ],
+    "correctOptionId": "B"
+  },
+  {
+    "id": 97,
+    "text": "¿Qué tipo de variable es el color de los ojos?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Nominal."
+      },
+      {
+        "id": "B",
+        "text": "Ordinal."
+      },
+      {
+        "id": "C",
+        "text": "Intervalo."
+      },
+      {
+        "id": "D",
+        "text": "Ratio."
+      }
+    ],
+    "correctOptionId": "A"
+  },
+  {
+    "id": 98,
+    "text": "¿Cuál de las siguientes escalas de medición permite operaciones matemáticas como la suma y resta, pero no la multiplicación o división?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Nominal."
+      },
+      {
+        "id": "B",
+        "text": "Ordinal."
+      },
+      {
+        "id": "C",
+        "text": "Intervalo."
+      },
+      {
+        "id": "D",
+        "text": "Ratio."
+      }
+    ],
+    "correctOptionId": "C"
+  },
+  {
+    "id": 99,
+    "text": "¿Qué medida de tendencia central se ve más afectada por valores extremos?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Moda."
+      },
+      {
+        "id": "B",
+        "text": "Media."
+      },
+      {
+        "id": "C",
+        "text": "Mediana."
+      },
+      {
+        "id": "D",
+        "text": "Rango intercuartílico."
+      }
+    ],
+    "correctOptionId": "B"
+  },
+  {
+    "id": 100,
+    "text": "¿Qué medida de dispersión es más resistente a valores extremos?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Rango."
+      },
+      {
+        "id": "B",
+        "text": "Desviación estándar."
+      },
+      {
+        "id": "C",
+        "text": "Mediana absoluta de desviación (MAD)."
+      },
+      {
+        "id": "D",
+        "text": "Media."
+      }
+    ],
+    "correctOptionId": "C"
+  },
+  {
+    "id": 101,
+    "text": "Si un conjunto de datos tiene una distribución normal, ¿qué relación hay entre la media, mediana y moda?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Media < Mediana < Moda."
+      },
+      {
+        "id": "B",
+        "text": "Media > Mediana > Moda."
+      },
+      {
+        "id": "C",
+        "text": "Media = Mediana = Moda."
+      },
+      {
+        "id": "D",
+        "text": "No hay relación."
+      }
+    ],
+    "correctOptionId": "C"
+  },
+  {
+    "id": 102,
+    "text": "¿Qué gráfico se usa comúnmente para detectar valores atípicos en un conjunto de",
+    "options": [
+      {
+        "id": "A",
+        "text": "Histograma."
+      },
+      {
+        "id": "B",
+        "text": "Gráfico de líneas."
+      },
+      {
+        "id": "C",
+        "text": "Gráfico de dispersión."
+      },
+      {
+        "id": "D",
+        "text": "Boxplot (diagrama de caja y bigotes)."
+      }
+    ],
+    "correctOptionId": "D"
+  },
+  {
+    "id": 103,
+    "text": "¿Cuál es la principal diferencia entre estadísticas descriptivas e inferenciales?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Las estadísticas descriptivas resumen datos, mientras que las inferenciales hacen predicciones basadas en datos muestrales."
+      },
+      {
+        "id": "B",
+        "text": "Las estadísticas inferenciales siempre son más precisas que las descriptivas."
+      },
+      {
+        "id": "C",
+        "text": "Las estadísticas descriptivas requieren una gran cantidad de datos."
+      },
+      {
+        "id": "D",
+        "text": "No hay diferencia."
+      }
+    ],
+    "correctOptionId": "A"
+  },
+  {
+    "id": 104,
+    "text": "¿Qué prueba estadística se usa para comparar las medias de tres o más grupos?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Prueba t de Student."
+      },
+      {
+        "id": "B",
+        "text": "ANOVA."
+      },
+      {
+        "id": "C",
+        "text": "Prueba de chi-cuadrado."
+      },
+      {
+        "id": "D",
+        "text": "Regresión lineal."
+      }
+    ],
+    "correctOptionId": "B"
+  },
+  {
+    "id": 105,
+    "text": "¿Qué tipo de error cometes si rechazas una hipótesis nula verdadera?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Error tipo I."
+      },
+      {
+        "id": "B",
+        "text": "Error tipo II."
+      },
+      {
+        "id": "C",
+        "text": "Error de estimación."
+      },
+      {
+        "id": "D",
+        "text": "Error de muestreo."
+      }
+    ],
+    "correctOptionId": "A"
+  },
+  {
+    "id": 106,
+    "text": "¿Cuál es el nivel de confianza más comúnmente usado en inferencia estadística?",
+    "options": [
+      {
+        "id": "A",
+        "text": "80%."
+      },
+      {
+        "id": "B",
+        "text": "90%."
+      },
+      {
+        "id": "C",
+        "text": "95%."
+      },
+      {
+        "id": "D",
+        "text": "99%."
+      }
+    ],
+    "correctOptionId": "C"
+  },
+  {
+    "id": 107,
+    "text": "¿Qué representa un p-valor en una prueba de hipótesis?",
+    "options": [
+      {
+        "id": "A",
+        "text": "La probabilidad de que la hipótesis nula sea verdadera."
+      },
+      {
+        "id": "B",
+        "text": "La probabilidad de obtener resultados iguales o más extremos si la hipótesis nula es"
+      },
+      {
+        "id": "C",
+        "text": "La certeza absoluta de que un resultado es significativo."
+      },
+      {
+        "id": "D",
+        "text": "La diferencia exacta entre dos grupos."
+      }
+    ],
+    "correctOptionId": "B"
+  },
+  {
+    "id": 108,
+    "text": "¿Qué método es apropiado si los datos no cumplen con la normalidad?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Prueba t de Student."
+      },
+      {
+        "id": "B",
+        "text": "ANOVA."
+      },
+      {
+        "id": "C",
+        "text": "Pruebas no paramétricas como la de Mann-Whitney U."
+      },
+      {
+        "id": "D",
+        "text": "Regresión lineal."
+      }
+    ],
+    "correctOptionId": "C"
+  },
+  {
+    "id": 109,
+    "text": "¿Qué mide la kurtosis en una distribución de datos?",
+    "options": [
+      {
+        "id": "A",
+        "text": "El grado de asimetría de la distribución."
+      },
+      {
+        "id": "B",
+        "text": "La dispersión de los datos alrededor de la media."
+      },
+      {
+        "id": "C",
+        "text": "La altura y forma de la curva de la distribución."
+      },
+      {
+        "id": "D",
+        "text": "La relación entre la media y la mediana."
+      }
+    ],
+    "correctOptionId": "C"
+  },
+  {
+    "id": 110,
+    "text": "¿Cuál de los siguientes es un método gráfico para evaluar la normalidad de un",
+    "options": [
+      {
+        "id": "A",
+        "text": "Prueba de Kolmogorov-Smirnov."
+      },
+      {
+        "id": "B",
+        "text": "Prueba de Shapiro-Wilk."
+      },
+      {
+        "id": "C",
+        "text": "Gráfico Q-Q (Quantile-Quantile)."
+      },
+      {
+        "id": "D",
+        "text": "Prueba de chi-cuadrado."
+      }
+    ],
+    "correctOptionId": "C"
+  },
+  {
+    "id": 111,
+    "text": "¿Cuál de las siguientes alternativas estipulan una manera incorrecta de evitar sesgos en el planteamiento de preguntas en una encuesta?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Proporcionar categorias de respuestas exhaustiva, imparcial y no excluyentes."
+      },
+      {
+        "id": "B",
+        "text": "Haga suficientes preguntas para cubrir adecuadamente el tema."
+      },
+      {
+        "id": "C",
+        "text": "Tenga cuidado de usar redacción que influya en la forma en que el encuestado piensa en el problema."
+      },
+      {
+        "id": "D",
+        "text": "Escriba instrucciones o comentarios claros e imparciales."
+      }
+    ],
+    "correctOptionId": "A"
+  },
+  {
+    "id": 112,
+    "text": "¿Cuál de las siguientes opciones corresponde a la definición de una encuesta?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Es solo el instrumento (el cuestionario o la lista de verificación) para recopilar información."
+      },
+      {
+        "id": "B",
+        "text": "Es un sistema integral de recopilación de información para describir, comparar o explicar conocimientos, actitudes y comportamientos."
+      },
+      {
+        "id": "C",
+        "text": "Estudio que se le realiza a un grupo de personas, estas no representan a una población más amplia."
+      },
+      {
+        "id": "D",
+        "text": "Es una conversación dirigida, con un propósito especifico y que usa un formato de preguntas y respuestas."
+      }
+    ],
+    "correctOptionId": "A"
+  },
+  {
+    "id": 113,
+    "text": "¿Cuál de las siguientes opciones representa la actividad que se debe realizar después",
+    "options": [
+      {
+        "id": "A",
+        "text": "Hacer la encuesta."
+      },
+      {
+        "id": "B",
+        "text": "Realizar un análisis de datos."
+      },
+      {
+        "id": "C",
+        "text": "Implementar cuestionarios."
+      },
+      {
+        "id": "D",
+        "text": "Investigar sesgos sistemáticos."
+      }
+    ],
+    "correctOptionId": "B"
+  },
+  {
+    "id": 114,
+    "text": "¿Cuál de las siguientes opciones representa un planteamiento incorrecto en relación",
+    "options": [
+      {
+        "id": "A",
+        "text": "las preguntas de la encuesta."
+      },
+      {
+        "id": "B",
+        "text": "Se representa como una lista finita de todos sus miembros."
+      },
+      {
+        "id": "C",
+        "text": "Su definición surge de los objetivos de la encuesta."
+      },
+      {
+        "id": "D",
+        "text": "La población objetivo específica puede ser en sí misma un subconjunto de una población más grande."
+      }
+    ],
+    "correctOptionId": "A"
+  },
+  {
+    "id": 115,
+    "text": "¿Cuál de las siguientes opciones corresponde al orden de actividades adecuado para realizar una investigación?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Idea, problema, estado del arte, reporte, investigación"
+      },
+      {
+        "id": "B",
+        "text": "Problema, estado del arte, investigación, idea, reporte"
+      },
+      {
+        "id": "C",
+        "text": "Problema, investigación, estado del arte, idea, reporte"
+      },
+      {
+        "id": "D",
+        "text": "Problema, idea, estado del arte, investigación, reporte"
+      }
+    ],
+    "correctOptionId": "D"
+  },
+  {
+    "id": 116,
+    "text": "¿Cuál(es) de las siguientes afirmaciones no corresponden a los criterios por los cuales se clasifica la investigación?",
+    "options": [
+      {
+        "id": "A",
+        "text": "De acuerdo al tipo de problema que se aborda"
+      },
+      {
+        "id": "B",
+        "text": "Según el propósito de carácter teórico o de solución de problemas"
+      },
+      {
+        "id": "C",
+        "text": "Según el tipo de instrumentos utilizados en la recolección, procesamiento y análisis"
+      },
+      {
+        "id": "D",
+        "text": "De acuerdo a la época en la cual se lleva a cabo la investigación"
+      }
+    ],
+    "correctOptionId": "D"
+  },
+  {
+    "id": 117,
+    "text": "¿Cuál de las siguientes afirmaciones representa el orden adecuado de las actividades a realizarse para la definición de una problemática?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Identificación del problema, búsqueda de información, elaboración del problema y formulación del problema"
+      },
+      {
+        "id": "B",
+        "text": "Identificación del problema, observación del problema, revisión de literatura, estructuración del problema y refinamiento del problema"
+      },
+      {
+        "id": "C",
+        "text": "Identificación del problema, estructuración del problema, análisis del problema, planteamiento del problema y revisión de literatura"
+      },
+      {
+        "id": "D",
+        "text": "Identificación del problema, estructuración del problema, análisis del problema, planteamiento del problema y observación del problema"
+      }
+    ],
+    "correctOptionId": "A"
+  },
+  {
+    "id": 118,
+    "text": "¿Cuál de los siguientes postulados propone la real importancia de una  Revisión de Literatura Preliminar (RLP)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "A través de un RLP se sintetiza la información relevante de los estudios primarios de una manera razonable, se obtienen resultados con valor científico"
+      },
+      {
+        "id": "B",
+        "text": "Toda investigación inicia con una RLP, se obtienen importantes resultados de tipo observacional y se minimizan los trabajos existente"
+      },
+      {
+        "id": "C",
+        "text": "Identifica, evalúa e interpreta toda la información relevante a un área temática, fenómeno de interés o pregunta de investigación"
+      },
+      {
+        "id": "D",
+        "text": "Un RLP es un estudio secundario a través del cual se pueden generalizar los hallazgos obtenidos"
+      }
+    ],
+    "correctOptionId": "A"
+  },
+  {
+    "id": 119,
+    "text": "La investigación es:",
+    "options": [
+      {
+        "id": "A",
+        "text": "umentar la comprensión sobre el fenómeno que nos concierne o nos interesa"
+      },
+      {
+        "id": "B",
+        "text": "El proceso sincrónico de recopilación y análisis de información (datos) para"
+      },
+      {
+        "id": "C",
+        "text": "El proceso sistemático de creación y análisis de información (datos) para aumentar la comprensión sobre el fenómeno que nos concierne o nos interesa"
+      }
+    ],
+    "correctOptionId": "A"
+  },
+  {
+    "id": 120,
+    "text": "¿Cuál es el primer paso del proceso de investigación científica?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Diseñar el estudio"
+      },
+      {
+        "id": "B",
+        "text": "Formular hipótesis"
+      },
+      {
+        "id": "C",
+        "text": "Definir el problema"
+      },
+      {
+        "id": "D",
+        "text": "Analizar datos"
+      }
+    ],
+    "correctOptionId": "C"
+  },
+  {
+    "id": 121,
+    "text": "Uno de los principios de usabilidad y accesibilidad es la visibilidad del estado del sistema, seleccione ejemplos de este principio",
+    "options": [
+      {
+        "id": "A",
+        "text": "Botón de deshacer, dar la posibilidad de editar un perfil personal"
+      },
+      {
+        "id": "B",
+        "text": "FAQs, El icono de la interrogación"
+      },
+      {
+        "id": "C",
+        "text": "Minitours, comprobación de campos de formularios en tiempo real"
+      },
+      {
+        "id": "D",
+        "text": "Barras de carga, los Breadcrumbs, Los indicadores de los procesos de compra"
+      }
+    ],
+    "correctOptionId": "D"
+  },
+  {
+    "id": 122,
+    "text": "La aplicación de editor de textos Word utiliza botones diseñados con iconos que son fácilmente reconocibles, esto es una característica de principio de usabilidad:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Recuperación y prevención de errores"
+      },
+      {
+        "id": "B",
+        "text": "Visibilidad del estado del sistema"
+      },
+      {
+        "id": "C",
+        "text": "Reconocimiento en vez de recuerdo"
+      },
+      {
+        "id": "D",
+        "text": "Diseño visual, minimalista y estético"
+      }
+    ],
+    "correctOptionId": "C"
+  },
+  {
+    "id": 123,
+    "text": "Hace referencia a la parte visual de una aplicación de software, a la disposición de todos los elementos con los que el usuario va a interactuar con la aplicación.",
+    "options": [
+      {
+        "id": "A",
+        "text": "diseño IxD (Interaction Design)"
+      },
+      {
+        "id": "B",
+        "text": "diseño de navegaciòn"
+      },
+      {
+        "id": "C",
+        "text": "diseño UX (User eXperience)"
+      },
+      {
+        "id": "D",
+        "text": "diseño UI (User Interface)"
+      }
+    ],
+    "correctOptionId": "A"
+  },
+  {
+    "id": 124,
+    "text": "Está enérgicamente unido al diseño UX (User eXperience), siendo el estudio de las interacciones que realiza el usuario en una aplicación de software y su dispositivo como por ejemplo: uso de teclado, dispositivo táctil, tiempos invertidos en hacer clic, en",
+    "options": [
+      {
+        "id": "A",
+        "text": "diseño IxD (Interaction Design)"
+      },
+      {
+        "id": "B",
+        "text": "diseño de navegaciòn"
+      },
+      {
+        "id": "C",
+        "text": "diseño UX (User eXperience)"
+      },
+      {
+        "id": "D",
+        "text": "diseño UI (User Interface)"
+      }
+    ],
+    "correctOptionId": "A"
+  },
+  {
+    "id": 125,
+    "text": "Uno de los sistemas de evaluación de la usabilidad llamados de \"inspección\", se encuentra la evaluación……………… que consiste en que determinados evaluadores  revisan la interfaz siguiendo unos principios de usabilidad reconocidos. La revisión se realiza de manera individual y asumiendo el papel de usuario.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Cognitiva"
+      },
+      {
+        "id": "B",
+        "text": "Observación de campo"
+      },
+      {
+        "id": "C",
+        "text": "Heurística"
+      },
+      {
+        "id": "D",
+        "text": "Focus group"
+      }
+    ],
+    "correctOptionId": "C"
+  },
+  {
+    "id": 126,
+    "text": "¿Cuáles de los siguientes son objetivos de la web relacionados con la usabilidad?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Conseguir que la información relevante esté colocada en la página principal"
+      },
+      {
+        "id": "B",
+        "text": "Incrementar los ingresos del usuario"
+      },
+      {
+        "id": "C",
+        "text": "Facilitar la navegación de los usuarios en la web"
+      },
+      {
+        "id": "D",
+        "text": "Conseguir que los usuarios puedan comunicarse con el diseñador de la interfaz"
+      }
+    ],
+    "correctOptionId": "C"
+  },
+  {
+    "id": 127,
+    "text": "¿Cuál de los siguientes son métodos para analizar la usabilidad de una interfaz?",
+    "options": [
+      {
+        "id": "A",
+        "text": "La evaluación heurística a cargo de una persona con experiencia en usabilidad"
+      },
+      {
+        "id": "B",
+        "text": "Un compilador específico para el ámbito visual"
+      },
+      {
+        "id": "C",
+        "text": "Una encuesta entre la población antes de divulgar la página"
+      },
+      {
+        "id": "D",
+        "text": "Pensando en voz baja"
+      }
+    ],
+    "correctOptionId": "A"
+  },
+  {
+    "id": 128,
+    "text": "Son reglas que sirven para limitar las acciones que el sistema o los usuarios deben realizar. Se les conoce como:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Inferencias"
+      },
+      {
+        "id": "B",
+        "text": "Hechos"
+      },
+      {
+        "id": "C",
+        "text": "Validaciones"
+      },
+      {
+        "id": "D",
+        "text": "Restricciones"
+      }
+    ],
+    "correctOptionId": "D"
+  },
+  {
+    "id": 129,
+    "text": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Infraestructura, usabilidad"
+      },
+      {
+        "id": "B",
+        "text": "Navegabilidad, infraestructura"
+      },
+      {
+        "id": "C",
+        "text": "Seguridad, usabilidad, navegabilidad"
+      },
+      {
+        "id": "D",
+        "text": "Usabilidad, diseño, tiempo"
+      }
+    ],
+    "correctOptionId": "C"
+  },
+  {
+    "id": 130,
+    "text": "¿Qué guía de estilo para la Web explica sobre la navegación con teclado y otras",
+    "options": [
+      {
+        "id": "A",
+        "text": "W3C- “Web Content Accesibility Guidelines (WCAG)”."
+      },
+      {
+        "id": "B",
+        "text": "W3C- “Authoring Tool Accesibility Guidelines (ATAG)”."
+      },
+      {
+        "id": "C",
+        "text": "W3C- “User Agent Accesibility Guidelines (UAAG)."
+      },
+      {
+        "id": "D",
+        "text": "W3C- “User Agent Accesibility Guidelines (UAAG)."
+      }
+    ],
+    "correctOptionId": "C"
+  },
+  {
+    "id": 131,
+    "text": "En el tema de evaluación de usabilidad. Informa el tiempo de renderización de la imagen, el bloque de texto o el video más grandes que se pueden ver en el viewport, en relación con el momento en que el usuario navegó a la página por primera vez.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Interaction to Next Paint (INP)"
+      },
+      {
+        "id": "B",
+        "text": "Largest Contentful Paint (LCP)"
+      },
+      {
+        "id": "C",
+        "text": "First Contentful Paint (FCP)"
+      },
+      {
+        "id": "D",
+        "text": "Time to First Byte (TTFB)"
+      }
+    ],
+    "correctOptionId": "B"
+  },
+  {
+    "id": 132,
+    "text": "Para proporcionar una buena experiencia del usuario, los sitios web deben cumplir por tener una primera pintura de contenido de 1.8 segundos o menos, a fin de alcanzar este objetivo para la mayoría de los usuarios, un buen umbral para medir es el percentil 75 de las cargas de páginas, segmentadas entre los dispositivos móviles y las",
+    "options": [
+      {
+        "id": "A",
+        "text": "Interaction to Next Paint (INP)"
+      },
+      {
+        "id": "B",
+        "text": "Largest Contentful Paint (LCP)"
+      },
+      {
+        "id": "C",
+        "text": "First Contentful Paint (FCP)"
+      },
+      {
+        "id": "D",
+        "text": "Time to First Byte (TTFB)"
+      }
+    ],
+    "correctOptionId": "C"
+  },
+  {
+    "id": 133,
+    "text": "Tomando como referencia el ejemplo: Tres usuarios diferentes realizan la misma tarea. Dos lograron completar en un tiempo considerable (2,3 segundos, respectivamente), mientras que el tercer usuario se demoró 7 segundos y no la terminó, esto es un ejemplo de métrica de:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Eficiencia"
+      },
+      {
+        "id": "B",
+        "text": "Facilidad de uso"
+      },
+      {
+        "id": "C",
+        "text": "Eficacia"
+      },
+      {
+        "id": "D",
+        "text": "Eficiencia y Eficacia"
+      }
+    ],
+    "correctOptionId": "A"
+  },
+  {
+    "id": 134,
+    "text": "El método de evaluación por Inspección de estándares se realiza por medio de un experto en un estándar que puede ser de facto o de iure de la interfaz. El experto realiza una inspección minuciosa a la interfaz para comprobar que cumple en todo momento y globalmente todos los puntos definidos en el estándar. ¿En qué fases se aplica este método?",
+    "options": [
+      {
+        "id": "A",
+        "text": "En fases tempranas del desarrollo"
+      },
+      {
+        "id": "B",
+        "text": "En todas las fases de desarrollo"
+      },
+      {
+        "id": "C",
+        "text": "En fases avanzadas del desarrollo, pruebas, e implantación."
+      },
+      {
+        "id": "D",
+        "text": "En la fase de análisis de requisitos"
+      }
+    ],
+    "correctOptionId": "C"
+  },
+  {
+    "id": 135,
+    "text": "Seleccione los principios importantes de la experiencia de usuario (UX) en",
+    "options": [
+      {
+        "id": "A",
+        "text": "Persistencia espacial, Interacción natural"
+      },
+      {
+        "id": "B",
+        "text": "Objetos virtuales, escenario virtual"
+      },
+      {
+        "id": "C",
+        "text": "Objetos reales, escenario real"
+      },
+      {
+        "id": "D",
+        "text": "Lenguaje natural, manipulación directa"
+      }
+    ],
+    "correctOptionId": "A"
+  },
+  {
+    "id": 136,
+    "text": "¿Qué componente principal de Metasploit se utiliza para ejecutar acciones en un sistema objetivo tras una intrusión?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Payload"
+      },
+      {
+        "id": "B",
+        "text": "Exploit"
+      },
+      {
+        "id": "C",
+        "text": "Auxiliary"
+      },
+      {
+        "id": "D",
+        "text": "Encoder"
+      }
+    ],
+    "correctOptionId": "A"
+  },
+  {
+    "id": 137,
+    "text": "¿Qué tipo de cifrado utiliza una sola clave compartida entre las partes",
+    "options": [
+      {
+        "id": "A",
+        "text": "Cifrado asimétrico"
+      },
+      {
+        "id": "B",
+        "text": "Cifrado híbrido"
+      },
+      {
+        "id": "C",
+        "text": "Cifrado simétrico"
+      },
+      {
+        "id": "D",
+        "text": "Cifrado hash"
+      }
+    ],
+    "correctOptionId": "C"
+  },
+  {
+    "id": 138,
+    "text": "¿Qué característica define a la criptografía asimétrica?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Utiliza claves idénticas"
+      },
+      {
+        "id": "B",
+        "text": "La clave privada puede compartirse"
+      },
+      {
+        "id": "C",
+        "text": "Utiliza un par de clave pública y privada"
+      },
+      {
+        "id": "D",
+        "text": "Genera siempre valores irreversibles"
+      }
+    ],
+    "correctOptionId": "C"
+  },
+  {
+    "id": 139,
+    "text": "¿Cuál es una característica fundamental de una función hash criptográfica?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Es reversible"
+      },
+      {
+        "id": "B",
+        "text": "Produce una salida de longitud variable"
+      },
+      {
+        "id": "C",
+        "text": "Produce siempre la misma salida para la misma entrada"
+      },
+      {
+        "id": "D",
+        "text": "Requiere una clave privada para generar el resultado"
+      }
+    ],
+    "correctOptionId": "C"
+  },
+  {
+    "id": 140,
+    "text": "¿Cuál es la utilidad principal de OpenSSL en la administración de seguridad?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Crear copias de seguridad del sistema"
+      },
+      {
+        "id": "B",
+        "text": "Realizar auditorías de red"
+      },
+      {
+        "id": "C",
+        "text": "Gestionar criptografía y certificados digitales"
+      },
+      {
+        "id": "D",
+        "text": "Implementar sistemas IDS/IPS"
+      }
+    ],
+    "correctOptionId": "C"
+  },
+  {
+    "id": 141,
+    "text": "¿Qué entidad dentro de un ecosistema de certificados digitales valida la identidad de un solicitante?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Servidor DNS"
+      },
+      {
+        "id": "B",
+        "text": "Autoridad Certificadora (CA)"
+      },
+      {
+        "id": "C",
+        "text": "Proveedor de antivirus"
+      },
+      {
+        "id": "D",
+        "text": "Proxy inverso"
+      }
+    ],
+    "correctOptionId": "B"
+  },
+  {
+    "id": 142,
+    "text": "¿Cómo se denomina el módulo de Metasploit utilizado para realizar tareas",
+    "options": [
+      {
+        "id": "A",
+        "text": "Exploit"
+      },
+      {
+        "id": "B",
+        "text": "Payload"
+      },
+      {
+        "id": "C",
+        "text": "Auxiliary"
+      },
+      {
+        "id": "D",
+        "text": "NOP"
+      }
+    ],
+    "correctOptionId": "C"
+  },
+  {
+    "id": 143,
+    "text": "¿Qué propósito cumple la firma digital dentro de un certificado X.509?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Cifrar la clave pública del usuario"
+      },
+      {
+        "id": "B",
+        "text": "Garantizar que la CA validó el certificado"
+      },
+      {
+        "id": "C",
+        "text": "Evitar que el usuario modifique su clave privada"
+      },
+      {
+        "id": "D",
+        "text": "Generar claves para conexiones seguras"
+      }
+    ],
+    "correctOptionId": "A"
+  },
+  {
+    "id": 144,
+    "text": "En un esquema de cifrado híbrido (por ejemplo, en TLS), ¿qué rol suelen",
+    "options": [
+      {
+        "id": "A",
+        "text": "Intercambiar las claves públicas"
+      },
+      {
+        "id": "B",
+        "text": "Proteger la integridad de la CA"
+      },
+      {
+        "id": "C",
+        "text": "Cifrar eficientemente el canal de comunicación"
+      },
+      {
+        "id": "D",
+        "text": "Firmar digitalmente los certificados"
+      }
+    ],
+    "correctOptionId": "C"
+  },
+  {
+    "id": 145,
+    "text": "¿Qué propiedad de una función hash evita que dos entradas diferentes produzcan la misma salida?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Difusión"
+      },
+      {
+        "id": "B",
+        "text": "Colisión"
+      },
+      {
+        "id": "C",
+        "text": "Resistencia a preimagen"
+      },
+      {
+        "id": "D",
+        "text": "Resistencia a colisiones"
+      }
+    ],
+    "correctOptionId": "C"
+  },
+  {
+    "id": 146,
+    "text": "¿Cuál de las siguientes afirmaciones describe mejor el propósito de la validación de requisitos en el ciclo de vida del software?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Asegurar que los requisitos sean técnicamente implementables."
+      },
+      {
+        "id": "B",
+        "text": "Confirmar que los requisitos estén escritos sin errores gramaticales."
+      },
+      {
+        "id": "C",
+        "text": "Verificar que los requisitos reflejen correctamente las necesidades del cliente."
+      },
+      {
+        "id": "D",
+        "text": "Evaluar el rendimiento del sistema en condiciones reales."
+      }
+    ],
+    "correctOptionId": "C"
+  },
+  {
+    "id": 147,
+    "text": "¿Cuál de las siguientes técnicas es más efectiva para validar requisitos",
+    "options": [
+      {
+        "id": "A",
+        "text": "Pruebas de integración"
+      },
+      {
+        "id": "B",
+        "text": "Revisión estructurada con stakeholders"
+      },
+      {
+        "id": "C",
+        "text": "Análisis de código fuente"
+      },
+      {
+        "id": "D",
+        "text": "Simulación de procesos"
+      }
+    ],
+    "correctOptionId": "B"
+  },
+  {
+    "id": 148,
+    "text": "¿Qué característica distingue a un requisito validado de uno simplemente",
+    "options": [
+      {
+        "id": "A",
+        "text": "Está escrito en lenguaje técnico."
+      },
+      {
+        "id": "B",
+        "text": "Ha sido aprobado por el equipo de desarrollo."
+      },
+      {
+        "id": "C",
+        "text": "Ha sido revisado y aceptado por los stakeholders."
+      },
+      {
+        "id": "D",
+        "text": "Tiene una prueba unitaria asociada."
+      }
+    ],
+    "correctOptionId": "C"
+  },
+  {
+    "id": 149,
+    "text": "¿Cuál de los siguientes riesgos es más probable si no se realiza una validación",
+    "options": [
+      {
+        "id": "A",
+        "text": "Aumento del rendimiento del sistema"
+      },
+      {
+        "id": "B",
+        "text": "Reducción del tiempo de desarrollo"
+      },
+      {
+        "id": "C",
+        "text": "Desarrollo de funcionalidades innecesarias"
+      },
+      {
+        "id": "D",
+        "text": "Mejora en la experiencia del usuario"
+      }
+    ],
+    "correctOptionId": "C"
+  },
+  {
+    "id": 150,
+    "text": "¿Qué afirmación es más precisa respecto a la trazabilidad en la validación de requisitos?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Solo aplica a requisitos funcionales."
+      },
+      {
+        "id": "B",
+        "text": "Es útil únicamente en fases de prueba."
+      },
+      {
+        "id": "C",
+        "text": "Permite verificar que cada requisito tiene una fuente y una prueba asociada."
+      },
+      {
+        "id": "D",
+        "text": "Es responsabilidad exclusiva del equipo de QA."
+      }
+    ],
+    "correctOptionId": "C"
+  },
+  {
+    "id": 151,
+    "text": "¿Cuál es la forma más adecuada de documentar los requisitos de software en un proyecto profesional?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Escribirlos en correos electrónicos entre el cliente y el desarrollador."
+      },
+      {
+        "id": "B",
+        "text": "Utilizar un documento estructurado como el SRS (Software Requirements Specification)."
+      },
+      {
+        "id": "C",
+        "text": "Incluirlos como comentarios dentro del código fuente."
+      },
+      {
+        "id": "D",
+        "text": "Discutirlos verbalmente en reuniones sin dejar registro."
+      }
+    ],
+    "correctOptionId": "B"
+  },
+  {
+    "id": 152,
+    "text": "¿Qué impacto tiene la priorización de requisitos en el desarrollo del software?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Reduce la necesidad de pruebas de calidad."
+      },
+      {
+        "id": "B",
+        "text": "Permite enfocar los recursos en funcionalidades de mayor valor para el negocio."
+      },
+      {
+        "id": "C",
+        "text": "Elimina la necesidad de reuniones con stakeholders."
+      },
+      {
+        "id": "D",
+        "text": "Aumenta la complejidad del diseño arquitectónico."
+      }
+    ],
+    "correctOptionId": "B"
+  },
+  {
+    "id": 153,
+    "text": "¿Cuál es la forma más efectiva de priorizar los requisitos de software en un proyecto con recursos limitados y múltiples stakeholders?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Ordenarlos alfabéticamente para facilitar su búsqueda."
+      },
+      {
+        "id": "B",
+        "text": "Asignarles un número aleatorio y desarrollarlos en ese orden."
+      },
+      {
+        "id": "C",
+        "text": "Aplicar técnicas como MoSCoW o análisis de valor-negocio vs. esfuerzo."
+      },
+      {
+        "id": "D",
+        "text": "Priorizar únicamente los requisitos propuestos por el equipo técnico."
+      }
+    ],
+    "correctOptionId": "C"
+  },
+  {
+    "id": 154,
+    "text": "¿Qué es la trazabilidad de los requisitos y por qué es importante?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Es una técnica para medir el rendimiento del software en producción."
+      },
+      {
+        "id": "B",
+        "text": "Es el proceso de traducir requisitos a lenguaje de programación."
+      },
+      {
+        "id": "C",
+        "text": "Es la capacidad de seguir el rastro de cada requisito desde su origen hasta su implementación y prueba."
+      },
+      {
+        "id": "D",
+        "text": "Es una forma de documentar únicamente los requisitos funcionales."
+      }
+    ],
+    "correctOptionId": "B"
+  },
+  {
+    "id": 155,
+    "text": "¿Cómo se asegura que los requisitos se cumplen durante las pruebas de software?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Ejecutando pruebas sin documentación previa."
+      },
+      {
+        "id": "B",
+        "text": "Validando únicamente los requisitos funcionales."
+      },
+      {
+        "id": "C",
+        "text": "Utilizando una matriz de trazabilidad que vincule requisitos con casos de prueba."
+      },
+      {
+        "id": "D",
+        "text": "Esperando a que el cliente detecte errores en producción."
+      }
+    ],
+    "correctOptionId": "C"
+  },
+  {
+    "id": 156,
+    "text": "¿Cuál es la diferencia principal entre los requisitos funcionales y los no funcionales en el desarrollo de software?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Los requisitos funcionales describen como debe comportarse el sistema ante fallos  , mientras que los no funcionales son opcionales."
+      },
+      {
+        "id": "B",
+        "text": "Los requisitos funcionales indican qué debe hacer el sistema, mientras que los no funcionales definen las funciones principales del sistema."
+      },
+      {
+        "id": "C",
+        "text": "Los requisitos funcionales indican qué debe hacer el sistema, mientras que los no funcionales describen cómo debe hacerlo."
+      },
+      {
+        "id": "D",
+        "text": "Los requisitos funcionales indican qué debe hacer el sistema, mientras que los no funcionales son opcionales son opcionales y no afectan al producto final"
+      }
+    ],
+    "correctOptionId": "C"
+  },
+  {
+    "id": 157,
+    "text": "¿Cuál es el objetivo principal del análisis de requisitos en un proyecto de software?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Diseñar la interfaz gráfica del sistema"
+      },
+      {
+        "id": "B",
+        "text": "Codificar los módulos principales"
+      },
+      {
+        "id": "C",
+        "text": "Identificar y documentar las necesidades del usuario"
+      },
+      {
+        "id": "D",
+        "text": "Estimar el presupuesto del proyecto"
+      }
+    ],
+    "correctOptionId": "C"
+  },
+  {
+    "id": 158,
+    "text": "¿Cuál de las siguientes afirmaciones describe mejor un requisito no funcional?",
+    "options": [
+      {
+        "id": "A",
+        "text": "El sistema debe permitir registrar nuevos usuarios"
+      },
+      {
+        "id": "B",
+        "text": "El sistema debe responder en menos de 2 segundos"
+      },
+      {
+        "id": "C",
+        "text": "El sistema debe calcular el total de ventas"
+      },
+      {
+        "id": "D",
+        "text": "El sistema debe permitir imprimir facturas"
+      }
+    ],
+    "correctOptionId": "B"
+  },
+  {
+    "id": 159,
+    "text": "¿Qué técnica es más adecuada para descubrir requisitos tácitos o no expresados directamente por el usuario?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Reunión JAD"
+      },
+      {
+        "id": "B",
+        "text": "Encuestas"
+      },
+      {
+        "id": "C",
+        "text": "Observación"
+      },
+      {
+        "id": "D",
+        "text": "Entrevistas"
+      }
+    ],
+    "correctOptionId": "C"
+  },
+  {
+    "id": 160,
+    "text": "¿Cuál es una ventaja clave del uso de casos de uso en el análisis de requisitos?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Permiten estimar el costo del proyecto"
+      },
+      {
+        "id": "B",
+        "text": "Describen la arquitectura del sistema"
+      },
+      {
+        "id": "C",
+        "text": "Sustituyen completamente la documentación técnica"
+      },
+      {
+        "id": "D",
+        "text": "Facilitan la comprensión de las interacciones entre usuarios y sistema."
+      }
+    ],
+    "correctOptionId": "C"
+  },
+  {
+    "id": 161,
+    "text": "¿Cuál es una característica principal de una Aplicación Web Progresiva (PWA)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Solo funciona en navegadores antiguos"
+      },
+      {
+        "id": "B",
+        "text": "No requiere conexión a Internet"
+      },
+      {
+        "id": "C",
+        "text": "Se comporta como una aplicación nativa"
+      },
+      {
+        "id": "D",
+        "text": "Está escrita exclusivamente en Java"
+      }
+    ],
+    "correctOptionId": "C"
+  },
+  {
+    "id": 162,
+    "text": "¿Qué tipo de peticiones permite que el navegador se comunique con el servidor sin recargar toda la página?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Síncronas"
+      },
+      {
+        "id": "B",
+        "text": "Paralelas"
+      },
+      {
+        "id": "C",
+        "text": "Asíncronas (AJAX)"
+      },
+      {
+        "id": "D",
+        "text": "HTTP estándar"
+      }
+    ],
+    "correctOptionId": "A"
+  },
+  {
+    "id": 163,
+    "text": "¿Qué tipo de aplicación web se adapta automáticamente a distintos tamaños de pantalla?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Web estática"
+      },
+      {
+        "id": "B",
+        "text": "Web responsive"
+      },
+      {
+        "id": "C",
+        "text": "Web monolítica"
+      },
+      {
+        "id": "D",
+        "text": "Web FTP"
+      }
+    ],
+    "correctOptionId": "B"
+  },
+  {
+    "id": 164,
+    "text": "¿Qué estándar se utiliza comúnmente para autenticar usuarios en aplicaciones web modernas?",
+    "options": [
+      {
+        "id": "A",
+        "text": "SMTP"
+      },
+      {
+        "id": "B",
+        "text": "OAuth"
+      },
+      {
+        "id": "C",
+        "text": "DNS"
+      },
+      {
+        "id": "D",
+        "text": "REST"
+      }
+    ],
+    "correctOptionId": "B"
+  },
+  {
+    "id": 165,
+    "text": "¿Cuál es el principal enfoque del desarrollo Front-End?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Manipular bases de datos del servidor"
+      },
+      {
+        "id": "B",
+        "text": "Administrar el sistema operativo"
+      },
+      {
+        "id": "C",
+        "text": "Crear la interfaz de usuario en el navegador"
+      },
+      {
+        "id": "D",
+        "text": "Gestionar redes y puertos de la aplicación"
+      }
+    ],
+    "correctOptionId": "C"
+  },
+  {
+    "id": 166,
+    "text": "¿Cuál es una característica clave de las plantillas en desarrollo web?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Son archivos de respaldo"
+      },
+      {
+        "id": "B",
+        "text": "Sirven para validar usuarios"
+      },
+      {
+        "id": "C",
+        "text": "Permiten reutilizar estructuras de código"
+      },
+      {
+        "id": "D",
+        "text": "Establecen políticas de seguridad"
+      }
+    ],
+    "correctOptionId": "C"
+  },
+  {
+    "id": 167,
+    "text": "¿Qué paradigma de programación permite representar la lógica web mediante",
+    "options": [
+      {
+        "id": "A",
+        "text": "Procedimental"
+      },
+      {
+        "id": "B",
+        "text": "Declarativo"
+      },
+      {
+        "id": "C",
+        "text": "Funcional"
+      },
+      {
+        "id": "D",
+        "text": "Orientado a Objetos"
+      }
+    ],
+    "correctOptionId": "C"
+  },
+  {
+    "id": 168,
+    "text": "¿Cuál es una ventaja de utilizar el patrón MVC en aplicaciones Front-End?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Mejora la seguridad del servidor"
+      },
+      {
+        "id": "B",
+        "text": "Aumenta el tamaño de la aplicación"
+      },
+      {
+        "id": "C",
+        "text": "Permite separar lógica, interfaz y datos"
+      },
+      {
+        "id": "D",
+        "text": "Requiere menos conocimientos de diseño"
+      }
+    ],
+    "correctOptionId": "C"
+  },
+  {
+    "id": 169,
+    "text": "¿Cuál es una característica fundamental de las APIs REST?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Usan FTP como protocolo principal"
+      },
+      {
+        "id": "B",
+        "text": "Solo funcionan con aplicaciones móviles"
+      },
+      {
+        "id": "C",
+        "text": "Siguen principios de arquitectura sin estado (stateless)"
+      },
+      {
+        "id": "D",
+        "text": "Están limitadas a bases de datos relacionales"
+      }
+    ],
+    "correctOptionId": "C"
+  },
+  {
+    "id": 170,
+    "text": "¿Cuál es uno de los beneficios de usar servicios web en aplicaciones Back-End?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Aumentar el tamaño de los archivos"
+      },
+      {
+        "id": "B",
+        "text": "Facilitar la integración con otros sistemas"
+      },
+      {
+        "id": "C",
+        "text": "Eliminar la necesidad de autenticación"
+      },
+      {
+        "id": "D",
+        "text": "Reducir la seguridad de la aplicación"
+      }
+    ],
+    "correctOptionId": "B"
+  },
+  {
+    "id": 171,
+    "text": "¿Qué significa ORM?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Object Request Mapping"
+      },
+      {
+        "id": "B",
+        "text": "Object Relational Mapping"
+      },
+      {
+        "id": "C",
+        "text": "Online Resource Manager"
+      },
+      {
+        "id": "D",
+        "text": "Object Runtime Manager"
+      }
+    ],
+    "correctOptionId": "B"
+  },
+  {
+    "id": 172,
+    "text": "¿Cuál es el lenguaje de consulta propio de Hibernate?",
+    "options": [
+      {
+        "id": "A",
+        "text": "SQL"
+      },
+      {
+        "id": "B",
+        "text": "JPQL"
+      },
+      {
+        "id": "C",
+        "text": "HQL"
+      },
+      {
+        "id": "D",
+        "text": "JSON"
+      }
+    ],
+    "correctOptionId": "A"
+  },
+  {
+    "id": 173,
+    "text": "¿Qué anotación se utiliza para indicar la clase persistente en Hibernate?",
+    "options": [
+      {
+        "id": "A",
+        "text": "@Service"
+      },
+      {
+        "id": "B",
+        "text": "@Database"
+      },
+      {
+        "id": "C",
+        "text": "@Entity"
+      },
+      {
+        "id": "D",
+        "text": "@Persistence"
+      }
+    ],
+    "correctOptionId": "C"
+  },
+  {
+    "id": 174,
+    "text": "¿Qué ventaja ofrece Hibernate frente a JDBC tradicional?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Mayor velocidad sin conexión"
+      },
+      {
+        "id": "B",
+        "text": "Mapeo automático entre objetos Java y tablas"
+      },
+      {
+        "id": "C",
+        "text": "Uso exclusivo de bases de datos NoSQL"
+      },
+      {
+        "id": "D",
+        "text": "Permite escribir consultas en JavaScript"
+      }
+    ],
+    "correctOptionId": "B"
+  },
+  {
+    "id": 175,
+    "text": "¿Qué sintaxis permite escribir HTML dentro de JavaScript en React?",
+    "options": [
+      {
+        "id": "A",
+        "text": "A. XML"
+      },
+      {
+        "id": "B",
+        "text": "B. JSX"
+      },
+      {
+        "id": "C",
+        "text": "C. TSX"
+      },
+      {
+        "id": "D",
+        "text": "D. HTML5"
+      }
+    ],
+    "correctOptionId": "B"
+  },
+  {
+    "id": 176,
+    "text": "¿Qué algoritmo es más utilizado para la navegación de NPCs en mapas?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Algoritmo A*"
+      },
+      {
+        "id": "B",
+        "text": "Redes Neuronales"
+      },
+      {
+        "id": "C",
+        "text": "Minimax"
+      },
+      {
+        "id": "D",
+        "text": "Perlin Noises"
+      }
+    ],
+    "correctOptionId": "A"
+  },
+  {
+    "id": 177,
+    "text": "¿Las etapas del desarrollo de un videojuego son?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Espiral, cascada, iterativo, incremental."
+      },
+      {
+        "id": "B",
+        "text": "Concepto, Pre-producción, producción, QA y Cierre, Post-Release."
+      },
+      {
+        "id": "C",
+        "text": "Concepto, producción, QA y Cierre, Post-Release."
+      },
+      {
+        "id": "D",
+        "text": "Explorar, descubrir,  competir y ganar."
+      }
+    ],
+    "correctOptionId": "B"
+  },
+  {
+    "id": 178,
+    "text": "¿Cuál es una de las principales ventajas de Unity?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Exclusivo para juegos AAA"
+      },
+      {
+        "id": "B",
+        "text": "Gratuito sin limitaciones"
+      },
+      {
+        "id": "C",
+        "text": "Soporte para múltiples plataformas"
+      },
+      {
+        "id": "D",
+        "text": "No requiere conocimientos de programación"
+      }
+    ],
+    "correctOptionId": "C"
+  },
+  {
+    "id": 179,
+    "text": "¿Cuál de los siguientes componentes es responsable del rendimiento gráfico en una consola?",
+    "options": [
+      {
+        "id": "A",
+        "text": "CPU"
+      },
+      {
+        "id": "B",
+        "text": "GPU"
+      },
+      {
+        "id": "C",
+        "text": "RAM"
+      },
+      {
+        "id": "D",
+        "text": "Disco duro"
+      }
+    ],
+    "correctOptionId": "A"
+  },
+  {
+    "id": 180,
+    "text": "¿Qué es un motor de videojuegos?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Un hardware especializado para ejecutar juegos."
+      },
+      {
+        "id": "B",
+        "text": "Una plataforma que unifica programación y elementos creativos."
+      },
+      {
+        "id": "C",
+        "text": "Un lenguaje de programación exclusivo para juegos."
+      },
+      {
+        "id": "D",
+        "text": "Un sistema para gestionar servidores multijugador."
+      }
+    ],
+    "correctOptionId": "B"
+  },
+  {
+    "id": 181,
+    "text": "¿Cómo afecta el uso de servidores dedicados a los videojuegos en línea?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Reduce la latencia y mejora la estabilidad"
+      },
+      {
+        "id": "B",
+        "text": "Hace los juegos más baratos"
+      },
+      {
+        "id": "C",
+        "text": "Permite jugar sin conexión"
+      },
+      {
+        "id": "D",
+        "text": "No tiene impacto"
+      }
+    ],
+    "correctOptionId": "A"
+  },
+  {
+    "id": 182,
+    "text": "¿Cuál de las siguientes tareas pertenece a la fase de preproducción?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Desarrollo del motor gráfico"
+      },
+      {
+        "id": "B",
+        "text": "Creación del prototipo"
+      },
+      {
+        "id": "C",
+        "text": "Testeo final del juego"
+      },
+      {
+        "id": "D",
+        "text": "Lanzamiento del juego"
+      }
+    ],
+    "correctOptionId": "B"
+  },
+  {
+    "id": 183,
+    "text": "¿Cuál de los siguientes aspectos se evalúa en las pruebas de jugabilidad?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Calidad gráfica"
+      },
+      {
+        "id": "B",
+        "text": "Equilibrio y experiencia del jugador"
+      },
+      {
+        "id": "C",
+        "text": "Estrategias de marketing"
+      },
+      {
+        "id": "D",
+        "text": "Publicidad en redes sociales"
+      }
+    ],
+    "correctOptionId": "B"
+  },
+  {
+    "id": 184,
+    "text": "¿Qué motor permite gestionar el estado actual del juego mediante guardado y",
+    "options": [
+      {
+        "id": "A",
+        "text": "Motor de persistencia."
+      },
+      {
+        "id": "B",
+        "text": "Motor de escenas."
+      },
+      {
+        "id": "C",
+        "text": "Motor de scripting."
+      },
+      {
+        "id": "D",
+        "text": "Motor de entrada."
+      }
+    ],
+    "correctOptionId": "A"
+  },
+  {
+    "id": 185,
+    "text": "¿Cuál de las siguientes técnicas se basa en reglas predefinidas y respuestas específicas a estímulos?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Aprendizaje Profundo"
+      },
+      {
+        "id": "B",
+        "text": "Redes Neuronales"
+      },
+      {
+        "id": "C",
+        "text": "Máquinas de Estados Finitos (FSM)"
+      },
+      {
+        "id": "D",
+        "text": "Algoritmo Genético."
+      }
+    ],
+    "correctOptionId": "C"
+  },
+  {
+    "id": 186,
+    "text": "¿Qué se recomienda para acelerar el desarrollo de un videojuego?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Inventar todas las herramientas desde cero"
+      },
+      {
+        "id": "B",
+        "text": "Evitar el uso de prototipos"
+      },
+      {
+        "id": "C",
+        "text": "Usar bibliotecas y motores existentes"
+      },
+      {
+        "id": "D",
+        "text": "Focalizarse solo en el diseño visual"
+      }
+    ],
+    "correctOptionId": "C"
+  },
+  {
+    "id": 187,
+    "text": "¿Cuál de estas técnicas permite que un NPC aprenda de la experiencia y mejore su comportamiento con el tiempo?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Aprendizaje reforzado"
+      },
+      {
+        "id": "B",
+        "text": "Árboles de decisión"
+      },
+      {
+        "id": "C",
+        "text": "Pathfinding"
+      },
+      {
+        "id": "D",
+        "text": "Shaders gráficos"
+      }
+    ],
+    "correctOptionId": "A"
+  },
+  {
+    "id": 188,
+    "text": "¿Cuál de los siguientes motores es gratuito y de código abierto con una",
+    "options": [
+      {
+        "id": "A",
+        "text": "Godot Engine."
+      },
+      {
+        "id": "B",
+        "text": "Roblox Studio."
+      },
+      {
+        "id": "C",
+        "text": "Stencyl."
+      },
+      {
+        "id": "D",
+        "text": "Adventure Game Studio."
+      }
+    ],
+    "correctOptionId": "A"
+  },
+  {
+    "id": 189,
+    "text": "¿Qué representa el gameplay en el diseño del videojuego?",
+    "options": [
+      {
+        "id": "A",
+        "text": "La narrativa del juego"
+      },
+      {
+        "id": "B",
+        "text": "Las mecánicas y experiencia del jugador"
+      },
+      {
+        "id": "C",
+        "text": "Los efectos visuales y sonoros"
+      },
+      {
+        "id": "D",
+        "text": "El diseño de los personajes secundarios"
+      }
+    ],
+    "correctOptionId": "B"
+  },
+  {
+    "id": 190,
+    "text": "¿Qué componente de la arquitectura de juegos en red gestiona la",
+    "options": [
+      {
+        "id": "A",
+        "text": "El motor gráfico"
+      },
+      {
+        "id": "B",
+        "text": "El servidor"
+      },
+      {
+        "id": "C",
+        "text": "La tarjeta de video"
+      },
+      {
+        "id": "D",
+        "text": "La física del juego"
+      }
+    ],
+    "correctOptionId": "B"
+  },
+  {
+    "id": 191,
+    "text": "¿Qué es la seguridad del software?",
+    "options": [
+      {
+        "id": "A",
+        "text": "La protección del hardware contra daños físicos."
+      },
+      {
+        "id": "B",
+        "text": "La protección del software y sus datos contra accesos no autorizados."
+      },
+      {
+        "id": "C",
+        "text": "La optimización del rendimiento del software."
+      },
+      {
+        "id": "D",
+        "text": "La eliminación de errores en el código."
+      }
+    ],
+    "correctOptionId": "B"
+  },
+  {
+    "id": 192,
+    "text": "¿Por qué es importante la seguridad en el desarrollo de software?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Para reducir los costos de producción."
+      },
+      {
+        "id": "B",
+        "text": "Para garantizar que el software sea accesible en cualquier momento."
+      },
+      {
+        "id": "C",
+        "text": "Para evitar vulnerabilidades que puedan ser explotadas por atacantes."
+      },
+      {
+        "id": "D",
+        "text": "Para mejorar la interfaz de usuario."
+      }
+    ],
+    "correctOptionId": "C"
+  },
+  {
+    "id": 193,
+    "text": "¿Qué representan las vulnerabilidades en el software?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Errores que mejoran el rendimiento."
+      },
+      {
+        "id": "B",
+        "text": "Debilidades que pueden ser explotadas por atacantes."
+      },
+      {
+        "id": "C",
+        "text": "Características que aumentan la seguridad."
+      },
+      {
+        "id": "D",
+        "text": "Funciones que optimizan la compatibilidad."
+      }
+    ],
+    "correctOptionId": "B"
+  },
+  {
+    "id": 194,
+    "text": "¿Cuál es uno de los costes asociados a las vulnerabilidades del software?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Reducción del tiempo de desarrollo."
+      },
+      {
+        "id": "B",
+        "text": "Pérdida de datos y daño a la reputación."
+      },
+      {
+        "id": "C",
+        "text": "Mejoras en la experiencia del usuario."
+      },
+      {
+        "id": "D",
+        "text": "Incremento en la velocidad del sistema."
+      }
+    ],
+    "correctOptionId": "B"
+  },
+  {
+    "id": 195,
+    "text": "¿Qué implica la gestión de riesgos de seguridad en el software?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Identificar, evaluar y mitigar amenazas y vulnerabilidades."
+      },
+      {
+        "id": "B",
+        "text": "Mejorar únicamente la interfaz de usuario."
+      },
+      {
+        "id": "C",
+        "text": "Incrementar la funcionalidad del software sin considerar la seguridad."
+      },
+      {
+        "id": "D",
+        "text": "Reducir los costos de desarrollo a toda costa."
+      }
+    ],
+    "correctOptionId": "A"
+  },
+  {
+    "id": 196,
+    "text": "¿Cuál de las siguientes propiedades NO es típica de un software seguro y resiliente?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Capacidad para recuperarse tras un ataque."
+      },
+      {
+        "id": "B",
+        "text": "Vulnerabilidad a ataques conocidos."
+      },
+      {
+        "id": "C",
+        "text": "Capacidad para detectar y responder a amenazas."
+      },
+      {
+        "id": "D",
+        "text": "Mínimos errores de seguridad."
+      }
+    ],
+    "correctOptionId": "B"
+  },
+  {
+    "id": 197,
+    "text": "¿Qué nivel de amenazas incluye riesgos a nivel de hardware?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Solo amenazas físicas, como robos o daños."
+      },
+      {
+        "id": "B",
+        "text": "Amenazas relacionadas con la manipulación del hardware."
+      },
+      {
+        "id": "C",
+        "text": "Solo amenazas de software malicioso."
+      },
+      {
+        "id": "D",
+        "text": "Solo amenazas a la red."
+      }
+    ],
+    "correctOptionId": "B"
+  },
+  {
+    "id": 198,
+    "text": "¿Cuál de las siguientes es una amenaza a nivel de código?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Ataques de denegación de servicio."
+      },
+      {
+        "id": "B",
+        "text": "Manipulación de datos en la base de datos."
+      },
+      {
+        "id": "C",
+        "text": "Inserción de código malicioso como SQL Injection."
+      },
+      {
+        "id": "D",
+        "text": "Fallos en la alimentación eléctrica."
+      }
+    ],
+    "correctOptionId": "C"
+  },
+  {
+    "id": 199,
+    "text": "¿Qué aspecto de las amenazas abarca el nivel de diseño?",
+    "options": [
+      {
+        "id": "A",
+        "text": "La fabricación de componentes físicos."
+      },
+      {
+        "id": "B",
+        "text": "La estructura y lógica del software que puede ser explotada."
+      },
+      {
+        "id": "C",
+        "text": "La velocidad de procesamiento del sistema."
+      },
+      {
+        "id": "D",
+        "text": "La compatibilidad con otros sistemas."
+      }
+    ],
+    "correctOptionId": "B"
+  },
+  {
+    "id": 200,
+    "text": "¿Qué se busca con un plan estratégico de seguridad en el ciclo de vida del",
+    "options": [
+      {
+        "id": "A",
+        "text": "Reducir los costos de desarrollo únicamente."
+      },
+      {
+        "id": "B",
+        "text": "Integrar la seguridad en todas las fases del desarrollo."
+      },
+      {
+        "id": "C",
+        "text": "Limitar la seguridad solo en la etapa de diseño."
+      },
+      {
+        "id": "D",
+        "text": "Acelerar la publicación del software sin considerar la seguridad."
+      }
+    ],
+    "correctOptionId": "B"
+  },
+  {
+    "id": 201,
+    "text": "¿Qué son las soluciones o frameworks de seguridad existentes?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Conjuntos de herramientas y buenas prácticas para proteger el software."
+      },
+      {
+        "id": "B",
+        "text": "Programas que eliminan todas las vulnerabilidades automáticamente."
+      },
+      {
+        "id": "C",
+        "text": "Sistemas operativos específicos para seguridad."
+      },
+      {
+        "id": "D",
+        "text": "Hardware especializado para protección física."
+      }
+    ],
+    "correctOptionId": "A"
+  },
+  {
+    "id": 202,
+    "text": "¿Qué se entiende por puntos de ataque en seguridad?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Los lugares donde el software puede ser actualizado."
+      },
+      {
+        "id": "B",
+        "text": "Los lugares o vulnerabilidades por donde un atacante puede ingresar o causar daño."
+      },
+      {
+        "id": "C",
+        "text": "Las áreas donde se almacenan los datos del usuario."
+      },
+      {
+        "id": "D",
+        "text": "Los componentes de hardware que protegen el sistema."
+      }
+    ],
+    "correctOptionId": "B"
+  },
+  {
+    "id": 203,
+    "text": "¿Cuál es una de las amenazas a nivel de arquitectura en el software?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Fallos de hardware en el servidor."
+      },
+      {
+        "id": "B",
+        "text": "Diseño de la estructura que permite ataques o fallos de seguridad."
+      },
+      {
+        "id": "C",
+        "text": "Mal funcionamiento del sistema operativo."
+      },
+      {
+        "id": "D",
+        "text": "Problemas en la red eléctrica."
+      }
+    ],
+    "correctOptionId": "B"
+  },
+  {
+    "id": 204,
+    "text": "¿Por qué es importante considerar la seguridad en todas las fases del ciclo de vida del desarrollo de software?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Porque reduce la necesidad de pruebas de seguridad."
+      },
+      {
+        "id": "B",
+        "text": "Porque permite detectar y corregir vulnerabilidades antes de que sean explotadas."
+      },
+      {
+        "id": "C",
+        "text": "Porque hace que el software sea más barato de mantener."
+      },
+      {
+        "id": "D",
+        "text": "Porque elimina la necesidad de gestionar riesgos."
+      }
+    ],
+    "correctOptionId": "B"
+  },
+  {
+    "id": 205,
+    "text": "¿Qué papel cumplen las directrices de seguridad adicionales en el desarrollo",
+    "options": [
+      {
+        "id": "A",
+        "text": "Mejoran la interfaz gráfica del software."
+      },
+      {
+        "id": "B",
+        "text": "Proveen recomendaciones para ampliar la protección contra amenazas específicas."
+      },
+      {
+        "id": "C",
+        "text": "Eliminar los requisitos funcionales del sistema."
+      },
+      {
+        "id": "D",
+        "text": "Reducir el tamaño del código."
+      }
+    ],
+    "correctOptionId": "B"
+  },
+  {
+    "id": 206,
+    "text": "Pregunta: ¿Qué clase se utiliza para crear widgets que pueden cambiar su",
+    "options": [
+      {
+        "id": "A",
+        "text": "StatelessWidget"
+      },
+      {
+        "id": "B",
+        "text": "Column"
+      },
+      {
+        "id": "C",
+        "text": "StatefulWidget"
+      },
+      {
+        "id": "D",
+        "text": "MaterialApp"
+      }
+    ],
+    "correctOptionId": "C"
+  },
+  {
+    "id": 207,
+    "text": "Pregunta: ¿Qué clase en Flutter implementa Listenable y permite notificar",
+    "options": [
+      {
+        "id": "A",
+        "text": "TextEditingController"
+      },
+      {
+        "id": "B",
+        "text": "ChangeNotifier"
+      },
+      {
+        "id": "C",
+        "text": "Future"
+      },
+      {
+        "id": "D",
+        "text": "Navigator"
+      }
+    ],
+    "correctOptionId": "B"
+  },
+  {
+    "id": 208,
+    "text": "Pregunta: ¿Qué función debe llamarse para actualizar a los listeners en un",
+    "options": [
+      {
+        "id": "A",
+        "text": "notify()"
+      },
+      {
+        "id": "B",
+        "text": "updateUI()"
+      },
+      {
+        "id": "C",
+        "text": "notifyListeners()"
+      },
+      {
+        "id": "D",
+        "text": "rebuild()"
+      }
+    ],
+    "correctOptionId": "C"
+  },
+  {
+    "id": 209,
+    "text": "Pregunta: ¿Qué tipo de lista muestra separadores entre los elementos?",
+    "options": [
+      {
+        "id": "A",
+        "text": "ListView.separated"
+      },
+      {
+        "id": "B",
+        "text": "ListView.builder"
+      },
+      {
+        "id": "C",
+        "text": "Column"
+      },
+      {
+        "id": "D",
+        "text": "ReorderableListView"
+      }
+    ],
+    "correctOptionId": "A"
+  },
+  {
+    "id": 210,
+    "text": "Pregunta: ¿Qué propiedad en Flutter indica el número de columnas en un GridView?count?",
+    "options": [
+      {
+        "id": "A",
+        "text": "columnCount"
+      },
+      {
+        "id": "B",
+        "text": "crossAxisCount"
+      },
+      {
+        "id": "C",
+        "text": "axisCount"
+      },
+      {
+        "id": "D",
+        "text": "numColumns"
+      }
+    ],
+    "correctOptionId": "B"
+  },
+  {
+    "id": 211,
+    "text": "Pregunta: ¿Qué widget se recomienda para construir listas dinámicas en Flutter?",
+    "options": [
+      {
+        "id": "A",
+        "text": "ListView"
+      },
+      {
+        "id": "B",
+        "text": "Column"
+      },
+      {
+        "id": "C",
+        "text": "ListView.builder"
+      },
+      {
+        "id": "D",
+        "text": "ListTile"
+      }
+    ],
+    "correctOptionId": "A"
+  },
+  {
+    "id": 212,
+    "text": "Pregunta: ¿Cuál es un ejemplo válido de endpoint REST?",
+    "options": [
+      {
+        "id": "A",
+        "text": "/getUsers"
+      },
+      {
+        "id": "B",
+        "text": "/users/:id"
+      },
+      {
+        "id": "C",
+        "text": "get/users"
+      },
+      {
+        "id": "D",
+        "text": "/user.get()"
+      }
+    ],
+    "correctOptionId": "B"
+  },
+  {
+    "id": 213,
+    "text": "Pregunta: ¿Qué función se usa para convertir un JSON en un objeto en Dart?",
+    "options": [
+      {
+        "id": "A",
+        "text": "fromMap()"
+      },
+      {
+        "id": "B",
+        "text": "jsonDecode()"
+      },
+      {
+        "id": "C",
+        "text": "parse()"
+      },
+      {
+        "id": "D",
+        "text": "toString()"
+      }
+    ],
+    "correctOptionId": "B"
+  },
+  {
+    "id": 214,
+    "text": "Pregunta: ¿Qué ventaja ofrece el patrón MVVM?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Aumenta el acoplamiento"
+      },
+      {
+        "id": "B",
+        "text": "Dificulta pruebas"
+      },
+      {
+        "id": "C",
+        "text": "Mejora testabilidad y separación de capas"
+      },
+      {
+        "id": "D",
+        "text": "Evita el uso de widgets"
+      }
+    ],
+    "correctOptionId": "C"
+  },
+  {
+    "id": 215,
+    "text": "Pregunta: ¿Qué tipo de gestor de estado se considera más adecuado para apps grandes y testeables?",
+    "options": [
+      {
+        "id": "A",
+        "text": "setState"
+      },
+      {
+        "id": "B",
+        "text": "Provider"
+      },
+      {
+        "id": "C",
+        "text": "Riverpod"
+      },
+      {
+        "id": "D",
+        "text": "StatefulWidget"
+      }
+    ],
+    "correctOptionId": "C"
+  },
+  {
+    "id": 216,
+    "text": "Pregunta: ¿Qué nombre tiene la convención de crear un objeto desde un JSON?",
+    "options": [
+      {
+        "id": "A",
+        "text": "toJson"
+      },
+      {
+        "id": "B",
+        "text": "jsonDecode"
+      },
+      {
+        "id": "C",
+        "text": "fromJson"
+      },
+      {
+        "id": "D",
+        "text": "constructor"
+      }
+    ],
+    "correctOptionId": "B"
+  },
+  {
+    "id": 217,
+    "text": "Pregunta: ¿Cuál es el propósito de jsonEncode(contact.toJson())?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Convertir JSON a objeto"
+      },
+      {
+        "id": "B",
+        "text": "Leer un archivo"
+      },
+      {
+        "id": "C",
+        "text": "Codificar un objeto Dart a JSON"
+      },
+      {
+        "id": "D",
+        "text": "Enviar una imagen"
+      }
+    ],
+    "correctOptionId": "C"
+  },
+  {
+    "id": 218,
+    "text": "Pregunta: ¿Dónde se define la interfaz de repositorio en arquitectura limpia?",
+    "options": [
+      {
+        "id": "A",
+        "text": "data/"
+      },
+      {
+        "id": "B",
+        "text": "application/"
+      },
+      {
+        "id": "C",
+        "text": "domain/"
+      },
+      {
+        "id": "D",
+        "text": "presentation/"
+      }
+    ],
+    "correctOptionId": "C"
+  },
+  {
+    "id": 219,
+    "text": "Pregunta: ¿Qué tipo de archivo se recomienda usar para separar los modelos que vienen de la API?",
+    "options": [
+      {
+        "id": "A",
+        "text": "widgets/"
+      },
+      {
+        "id": "B",
+        "text": "entities/"
+      },
+      {
+        "id": "C",
+        "text": "models/"
+      },
+      {
+        "id": "D",
+        "text": "providers/"
+      }
+    ],
+    "correctOptionId": "C"
+  },
+  {
+    "id": 220,
+    "text": "Pregunta: ¿Qué propiedad del Container permite aplicar un fondo degradado?",
+    "options": [
+      {
+        "id": "A",
+        "text": "backgroundGradient"
+      },
+      {
+        "id": "B",
+        "text": "GradientColor"
+      },
+      {
+        "id": "C",
+        "text": "BoxDecoration.gradient"
+      },
+      {
+        "id": "D",
+        "text": "Decoration"
+      }
+    ],
+    "correctOptionId": "D"
+  },
+  {
+    "id": 221,
+    "text": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "derecho"
+      },
+      {
+        "id": "B",
+        "text": "izquierdo"
+      },
+      {
+        "id": "C",
+        "text": "arriba"
+      },
+      {
+        "id": "D",
+        "text": "abajo"
+      }
+    ],
+    "correctOptionId": "B"
+  },
+  {
+    "id": 222,
+    "text": "¿Cuál de los siguientes fragmentos genera una órbita en sentido horario?",
+    "options": [
+      {
+        "id": "A",
+        "text": "angulo += velocidadAngular;"
+      },
+      {
+        "id": "B",
+        "text": "angulo -= velocidadAngular;"
+      },
+      {
+        "id": "C",
+        "text": "angulo = velocidadAngular * velocidadAngular;"
+      },
+      {
+        "id": "D",
+        "text": "velocidadAngular = angulo *2;"
+      }
+    ],
+    "correctOptionId": "B"
+  },
+  {
+    "id": 223,
+    "text": "¿Cuál es la ventaja de usar un “double buffering” en animaciones implementadas en C#?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Mejora el contraste del color"
+      },
+      {
+        "id": "B",
+        "text": "Reduce la memoria utilizada"
+      },
+      {
+        "id": "C",
+        "text": "Evita parpadeos y mejora la fluidez"
+      },
+      {
+        "id": "D",
+        "text": "Incrementa el tamaño de la ventana"
+      }
+    ],
+    "correctOptionId": "C"
+  },
+  {
+    "id": 224,
+    "text": "En una escena 2D con transformaciones aplicadas en C#, el punto (x, y) se representa internamente como un vector:",
+    "options": [
+      {
+        "id": "A",
+        "text": "(x, y, 0)"
+      },
+      {
+        "id": "B",
+        "text": "(x, y, 1)"
+      },
+      {
+        "id": "C",
+        "text": "(x, y, z, w)"
+      },
+      {
+        "id": "D",
+        "text": "(x, y, w)"
+      }
+    ],
+    "correctOptionId": "B"
+  },
+  {
+    "id": 225,
+    "text": "Para rotar una figura alrededor de un punto específico en C#, primero se debe:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Dibujar la figura y luego aplicar la rotación"
+      },
+      {
+        "id": "B",
+        "text": "Aplicar escalamiento y luego rotar"
+      },
+      {
+        "id": "C",
+        "text": "Trasladar el origen al punto, rotar y regresar la traslación"
+      },
+      {
+        "id": "D",
+        "text": "Cambiar el viewport"
+      }
+    ],
+    "correctOptionId": "C"
+  },
+  {
+    "id": 226,
+    "text": "En un proyecto de gráficos 2D con C#, el patrón habitual para evitar bloqueos en la interfaz mientras se animan objetos es utilizar:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Un hilo principal estático"
+      },
+      {
+        "id": "B",
+        "text": "Clases parciales"
+      },
+      {
+        "id": "C",
+        "text": "Un hilo separado para la lógica, mientras la UI repinta"
+      },
+      {
+        "id": "D",
+        "text": "Un dataset gráfico"
+      }
+    ],
+    "correctOptionId": "C"
+  },
+  {
+    "id": 227,
+    "text": "¿Qué curva fractal tiene una estructura triangular?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Curva de Koch"
+      },
+      {
+        "id": "B",
+        "text": "Conjunto de Mandelbrot"
+      },
+      {
+        "id": "C",
+        "text": "Curva de Bézier"
+      },
+      {
+        "id": "D",
+        "text": "Conjunto de Julia"
+      }
+    ],
+    "correctOptionId": "A"
+  },
+  {
+    "id": 228,
+    "text": "¿Qué algoritmo se utiliza para eliminar caras ocultas en un modelo 3D?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Algoritmo de Z-Buffer"
+      },
+      {
+        "id": "B",
+        "text": "Algoritmo de Bresenham"
+      },
+      {
+        "id": "C",
+        "text": "Transformación de perspectiva"
+      },
+      {
+        "id": "D",
+        "text": "Ajuste de curvas Bézier"
+      }
+    ],
+    "correctOptionId": "A"
+  },
+  {
+    "id": 229,
+    "text": "¿Qué técnica se utiliza para recortar líneas fuera de una ventana de visualización?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Transformación de perspectiva"
+      },
+      {
+        "id": "B",
+        "text": "Recorte de línea de Cohen-Sutherland"
+      },
+      {
+        "id": "C",
+        "text": "Algoritmo de Z-Buffer"
+      },
+      {
+        "id": "D",
+        "text": "Ajuste de curva B-Spline"
+      }
+    ],
+    "correctOptionId": "B"
+  },
+  {
+    "id": 230,
+    "text": "¿Qué operación vectorial se utiliza para calcular la proyección de un punto sobre una línea?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Producto interno"
+      },
+      {
+        "id": "B",
+        "text": "Producto cruzado"
+      },
+      {
+        "id": "C",
+        "text": "Determinante"
+      },
+      {
+        "id": "D",
+        "text": "Transformación lineal"
+      }
+    ],
+    "correctOptionId": "A"
+  },
+  {
+    "id": 231,
+    "text": "¿Qué es REST?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Es una manera de almacenar e intercambiar datos de una manera estructurada."
+      },
+      {
+        "id": "B",
+        "text": "Es un estilo arquitectónico para diseñar aplicaciones de servicio web."
+      },
+      {
+        "id": "C",
+        "text": "Es un protocolo que permite que los administradores manejen los nodos en una red IP."
+      },
+      {
+        "id": "D",
+        "text": "Es un formato legible para humanos, usado por aplicaciones para almacenar, transferir y leer información."
+      }
+    ],
+    "correctOptionId": "B"
+  },
+  {
+    "id": 232,
+    "text": "¿Qué código de estado de respuesta HTTP indica que se ha completado la solicitud para actualizar la base de datos?",
+    "options": [
+      {
+        "id": "A",
+        "text": "404"
+      },
+      {
+        "id": "B",
+        "text": "201"
+      },
+      {
+        "id": "C",
+        "text": "400"
+      },
+      {
+        "id": "D",
+        "text": "200"
+      }
+    ],
+    "correctOptionId": "B"
+  },
+  {
+    "id": 233,
+    "text": "¿Qué tipo de codificación se usa en la autenticación básica para las API REST?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Base64"
+      },
+      {
+        "id": "B",
+        "text": "UTF-8"
+      },
+      {
+        "id": "C",
+        "text": "Base32"
+      },
+      {
+        "id": "D",
+        "text": "UTF-16"
+      }
+    ],
+    "correctOptionId": "A"
+  },
+  {
+    "id": 234,
+    "text": "¿Qué operación RESTful corresponde al método HTTP GET?",
+    "options": [
+      {
+        "id": "A",
+        "text": "update"
+      },
+      {
+        "id": "B",
+        "text": "post"
+      },
+      {
+        "id": "C",
+        "text": "patch"
+      },
+      {
+        "id": "D",
+        "text": "read"
+      }
+    ],
+    "correctOptionId": "A"
+  },
+  {
+    "id": 235,
+    "text": "¿Qué código de estado de respuesta HTTP indica que el usuario no está",
+    "options": [
+      {
+        "id": "A",
+        "text": "400"
+      },
+      {
+        "id": "B",
+        "text": "401"
+      },
+      {
+        "id": "C",
+        "text": "403"
+      },
+      {
+        "id": "D",
+        "text": "404"
+      }
+    ],
+    "correctOptionId": "B"
+  },
+  {
+    "id": 236,
+    "text": "¿Qué estilo arquitectónico de API utiliza un protocolo de mensajería basado en XML para comunicarse entre aplicaciones?",
+    "options": [
+      {
+        "id": "A",
+        "text": "SOAP"
+      },
+      {
+        "id": "B",
+        "text": "NFS"
+      },
+      {
+        "id": "C",
+        "text": "XML-RPC"
+      },
+      {
+        "id": "D",
+        "text": "REST"
+      }
+    ],
+    "correctOptionId": "A"
+  },
+  {
+    "id": 237,
+    "text": "¿Qué elemento raíz de mensaje SOAP define el documento XML como un mensaje SOAP?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Meta tag"
+      },
+      {
+        "id": "B",
+        "text": "Body"
+      },
+      {
+        "id": "C",
+        "text": "Envelope"
+      },
+      {
+        "id": "D",
+        "text": "Header"
+      }
+    ],
+    "correctOptionId": "B"
+  },
+  {
+    "id": 238,
+    "text": "¿Cuál es una característica de una API RESTful?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Facilita los cambios de configuración de un controlador de red a los dispositivos finales."
+      },
+      {
+        "id": "B",
+        "text": "Utiliza métodos HTTP para recopilar y manipular datos."
+      },
+      {
+        "id": "C",
+        "text": "Admite una transmisión segura de datos entre un usuario remoto y una red empresarial."
+      },
+      {
+        "id": "D",
+        "text": "Es una API en dirección sur."
+      }
+    ],
+    "correctOptionId": "B"
+  },
+  {
+    "id": 239,
+    "text": "¿Qué tipo de información de credenciales se utiliza para la autenticación al portador en las API REST?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Un nombre de usuario y contraseña establecidos por el cliente"
+      },
+      {
+        "id": "B",
+        "text": "Una cadena generada por un servidor de autenticación"
+      },
+      {
+        "id": "C",
+        "text": "Una contraseña codificada usando Base64"
+      },
+      {
+        "id": "D",
+        "text": "Una cadena hash MD5 generada por la aplicación cliente"
+      }
+    ],
+    "correctOptionId": "B"
+  },
+  {
+    "id": 240,
+    "text": "¿Qué ataque implica la inserción de código malicioso en sentencias SQL?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Fuerza bruta"
+      },
+      {
+        "id": "B",
+        "text": "Inyección SQL"
+      },
+      {
+        "id": "C",
+        "text": "inclusión de archivos locales"
+      },
+      {
+        "id": "D",
+        "text": "Scripts entre sitios"
+      }
+    ],
+    "correctOptionId": "B"
+  },
+  {
+    "id": 241,
+    "text": "En el contexto de las aplicaciones distribuidas, la comunicación entre procesos es fundamental para el funcionamiento del sistema. ¿Cuál de los siguientes es un protocolo común utilizado para la comunicación entre procesos?",
+    "options": [
+      {
+        "id": "A",
+        "text": "HTTP"
+      },
+      {
+        "id": "B",
+        "text": "FTP"
+      },
+      {
+        "id": "C",
+        "text": "RPC"
+      },
+      {
+        "id": "D",
+        "text": "SMTP"
+      }
+    ],
+    "correctOptionId": "A"
+  },
+  {
+    "id": 242,
+    "text": "Las aplicaciones distribuidas tienen características específicas que las",
+    "options": [
+      {
+        "id": "A",
+        "text": "Centralización de recursos"
+      },
+      {
+        "id": "B",
+        "text": "Alta dependencia de un único servidor"
+      },
+      {
+        "id": "C",
+        "text": "Escalabilidad horizontal"
+      },
+      {
+        "id": "D",
+        "text": "Bajo nivel de tolerancia a fallos"
+      }
+    ],
+    "correctOptionId": "C"
+  },
+  {
+    "id": 243,
+    "text": "La sincronización en sistemas distribuidos es un desafío debido a la falta de un reloj global. ¿Cuál de los siguientes algoritmos se utiliza para sincronizar relojes en sistemas distribuidos?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Algoritmo de Dijkstra"
+      },
+      {
+        "id": "B",
+        "text": "Algoritmo de Lamport"
+      },
+      {
+        "id": "C",
+        "text": "Algoritmo de Huffman"
+      },
+      {
+        "id": "D",
+        "text": "Algoritmo de Bubble Sort"
+      }
+    ],
+    "correctOptionId": "B"
+  },
+  {
+    "id": 244,
+    "text": "La computación en la nube ofrece diversas ventajas para las aplicaciones",
+    "options": [
+      {
+        "id": "A",
+        "text": "Requiere una inversión inicial alta en infraestructura física"
+      },
+      {
+        "id": "B",
+        "text": "Ofrece escalabilidad bajo demanda"
+      },
+      {
+        "id": "C",
+        "text": "Limita el acceso a los recursos a una ubicación geográfica específica"
+      },
+      {
+        "id": "D",
+        "text": "No permite el uso de virtualización"
+      }
+    ],
+    "correctOptionId": "B"
+  },
+  {
+    "id": 245,
+    "text": "La orquestación de contenedores es esencial para gestionar aplicaciones",
+    "options": [
+      {
+        "id": "A",
+        "text": "Docker Compose"
+      },
+      {
+        "id": "B",
+        "text": "Kubernetes"
+      },
+      {
+        "id": "C",
+        "text": "Apache HTTP Server"
+      },
+      {
+        "id": "D",
+        "text": "MySQL"
+      }
+    ],
+    "correctOptionId": "B"
+  },
+  {
+    "id": 246,
+    "text": "En las bases de datos distribuidas, la metodología de configuración es crucial para el rendimiento. ¿Cuál de las siguientes opciones es un enfoque común para",
+    "options": [
+      {
+        "id": "A",
+        "text": "Replicación de datos"
+      },
+      {
+        "id": "B",
+        "text": "Eliminación de copias de seguridad"
+      },
+      {
+        "id": "C",
+        "text": "Centralización de todas las consultas en un único nodo"
+      },
+      {
+        "id": "D",
+        "text": "Desactivación de la tolerancia a fallos"
+      }
+    ],
+    "correctOptionId": "A"
+  },
+  {
+    "id": 247,
+    "text": "En el modelo cliente-servidor, el ______ solicita recursos mientras que el ______ los proporciona. Este enfoque es fundamental en las aplicaciones distribuidas.",
+    "options": [
+      {
+        "id": "A",
+        "text": "cliente, servidor"
+      },
+      {
+        "id": "B",
+        "text": "servidor, middleware"
+      },
+      {
+        "id": "C",
+        "text": "nodo, API"
+      },
+      {
+        "id": "D",
+        "text": "contenedor, microservicio"
+      }
+    ],
+    "correctOptionId": "A"
+  },
+  {
+    "id": 248,
+    "text": "Para garantizar la coherencia en sistemas distribuidos, se utilizan algoritmos",
+    "options": [
+      {
+        "id": "A",
+        "text": "virtualización, replicación"
+      },
+      {
+        "id": "B",
+        "text": "sincronización, exclusión"
+      },
+      {
+        "id": "C",
+        "text": "autenticación, autorización"
+      },
+      {
+        "id": "D",
+        "text": "encriptación, compresión"
+      }
+    ],
+    "correctOptionId": "B"
+  },
+  {
+    "id": 249,
+    "text": "En la computación en la nube, ______ permite empaquetar aplicaciones en entornos aislados, mientras que ______ gestiona la escalabilidad y despliegue de esos",
+    "options": [
+      {
+        "id": "A",
+        "text": "Docker, Kubernetes"
+      },
+      {
+        "id": "B",
+        "text": "OAuth, API"
+      },
+      {
+        "id": "C",
+        "text": "SOA, RPC"
+      },
+      {
+        "id": "D",
+        "text": "Thrift, gRPC"
+      }
+    ],
+    "correctOptionId": "A"
+  },
+  {
+    "id": 250,
+    "text": "Las bases de datos distribuidas utilizan ______ para mantener copias de datos en múltiples nodos y ______ para coordinar transacciones entre ellos, asegurando",
+    "options": [
+      {
+        "id": "A",
+        "text": "replicación, consenso"
+      },
+      {
+        "id": "B",
+        "text": "virtualización, sincronización"
+      },
+      {
+        "id": "C",
+        "text": "autenticación, encriptación"
+      },
+      {
+        "id": "D",
+        "text": "APIs, WebSockets"
+      }
+    ],
+    "correctOptionId": "A"
+  },
+  {
+    "id": 251,
+    "text": "En sistemas distribuidos, el problema de la ___________ requiere algoritmos",
+    "options": [
+      {
+        "id": "A",
+        "text": "sincronización de relojes, replicación"
+      },
+      {
+        "id": "B",
+        "text": "tolerancia a fallos, consistencia eventual"
+      },
+      {
+        "id": "C",
+        "text": "exclusión mutua, elección de líder"
+      },
+      {
+        "id": "D",
+        "text": "acuerdo distribuido, exclusión mutua"
+      }
+    ],
+    "correctOptionId": "D"
+  },
+  {
+    "id": 252,
+    "text": "En arquitecturas de microservicios, el patrón ___________ permite gestionar fallos en cascada mediante reintentos inteligentes, mientras que el ___________ facilita la comunicación asíncrona entre servicios desacoplados.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Circuit Breaker, Message Broker"
+      },
+      {
+        "id": "B",
+        "text": "API Gateway, Service Mesh"
+      },
+      {
+        "id": "C",
+        "text": "Load Balancer, Event Sourcing"
+      },
+      {
+        "id": "D",
+        "text": "CQRS, Saga Pattern"
+      }
+    ],
+    "correctOptionId": "A"
+  },
+  {
+    "id": 253,
+    "text": "Para garantizar consistencia en bases de datos distribuidas, el teorema ___________ establece que es imposible lograr simultáneamente consistencia,",
+    "options": [
+      {
+        "id": "A",
+        "text": "CAP, transacción distribuida"
+      },
+      {
+        "id": "B",
+        "text": "PACELC, sharding"
+      },
+      {
+        "id": "C",
+        "text": "ACID, replicación multimaestro"
+      },
+      {
+        "id": "D",
+        "text": "BASE, consistencia eventual"
+      }
+    ],
+    "correctOptionId": "A"
+  },
+  {
+    "id": 254,
+    "text": "En seguridad distribuida, ___________ delega autorización mediante tokens",
+    "options": [
+      {
+        "id": "A",
+        "text": "OAuth 2.0, TLS/SSL"
+      },
+      {
+        "id": "B",
+        "text": "JWT, API Key"
+      },
+      {
+        "id": "C",
+        "text": "SAML, HTTPS"
+      },
+      {
+        "id": "D",
+        "text": "OpenID Connect, IPsec"
+      }
+    ],
+    "correctOptionId": "A"
+  },
+  {
+    "id": 255,
+    "text": "Para sincronizar relojes en sistemas distribuidos, el algoritmo ___________ utiliza marcas lógicas para ordenar eventos, mientras que ___________ corrige",
+    "options": [
+      {
+        "id": "A",
+        "text": "Lamport, NTP"
+      },
+      {
+        "id": "B",
+        "text": "Vectorial, PTP"
+      },
+      {
+        "id": "C",
+        "text": "Cristian, Berkeley"
+      },
+      {
+        "id": "D",
+        "text": "Paxos, Raft"
+      }
+    ],
+    "correctOptionId": "A"
+  },
+  {
+    "id": 256,
+    "text": "¿Cuál es el objetivo principal del patrón Flyweight en el sistema desarrollado?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Almacenar los datos de los estudiantes en la nube."
+      },
+      {
+        "id": "B",
+        "text": "Optimizar el uso de memoria compartiendo datos comunes."
+      },
+      {
+        "id": "C",
+        "text": "Automatizar la creación de interfaces gráficas."
+      },
+      {
+        "id": "D",
+        "text": "Gestionar los estados anteriores de los objetos."
+      }
+    ],
+    "correctOptionId": "B"
+  },
+  {
+    "id": 257,
+    "text": "¿Qué componente del patrón Memento se encarga de almacenar el historial",
+    "options": [
+      {
+        "id": "A",
+        "text": "Originator"
+      },
+      {
+        "id": "B",
+        "text": "FlyweightFactory"
+      },
+      {
+        "id": "C",
+        "text": "Caretaker"
+      },
+      {
+        "id": "D",
+        "text": "Editor"
+      }
+    ],
+    "correctOptionId": "D"
+  },
+  {
+    "id": 258,
+    "text": "¿Cuál es el propósito del patrón Memento en la aplicación desarrollada?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Encapsular datos para el modelo."
+      },
+      {
+        "id": "B",
+        "text": "Permitir deshacer cambios realizados por el usuario."
+      },
+      {
+        "id": "C",
+        "text": "Centralizar la lógica de presentación."
+      },
+      {
+        "id": "D",
+        "text": "Dividir responsabilidades entre clases."
+      }
+    ],
+    "correctOptionId": "B"
+  },
+  {
+    "id": 259,
+    "text": "¿Qué mejora se propone en relación al patrón Memento para versiones futuras del sistema?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Implementar validaciones lógicas."
+      },
+      {
+        "id": "B",
+        "text": "Añadir función de rehacer."
+      },
+      {
+        "id": "C",
+        "text": "Usar árboles binarios para búsqueda."
+      },
+      {
+        "id": "D",
+        "text": "Migrar a arquitectura MVC."
+      }
+    ],
+    "correctOptionId": "B"
+  },
+  {
+    "id": 260,
+    "text": "¿Cómo contribuyen los patrones Flyweight y Memento al sistema en conjunto?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Reducen el número de líneas de código y aumentan acoplamiento."
+      },
+      {
+        "id": "B",
+        "text": "Permiten una estructura de base de datos más compleja."
+      },
+      {
+        "id": "C",
+        "text": "Mejoran eficiencia de memoria y experiencia de usuario mediante deshacer."
+      },
+      {
+        "id": "D",
+        "text": "Aumentan la redundancia de datos por eficiencia computacional."
+      }
+    ],
+    "correctOptionId": "C"
+  },
+  {
+    "id": 261,
+    "text": "¿Cuál es el objetivo principal del patrón de diseño Facade?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Facilitar la creación de objetos complejos mediante constructores"
+      },
+      {
+        "id": "B",
+        "text": "Simplificar el acceso a funcionalidades complejas de un subsistema"
+      },
+      {
+        "id": "C",
+        "text": "Permitir la reutilización de componentes en distintos contextos"
+      },
+      {
+        "id": "D",
+        "text": "Establecer comunicación directa entre clases"
+      }
+    ],
+    "correctOptionId": "B"
+  },
+  {
+    "id": 262,
+    "text": "¿En qué clase del proyecto se aplica el patrón Mediator según el documento?",
+    "options": [
+      {
+        "id": "A",
+        "text": "EstudianteUI.java"
+      },
+      {
+        "id": "B",
+        "text": "EstudianteRepositorio.java"
+      },
+      {
+        "id": "C",
+        "text": "EstudianteServicio.java"
+      },
+      {
+        "id": "D",
+        "text": "Main.java"
+      }
+    ],
+    "correctOptionId": "C"
+  },
+  {
+    "id": 263,
+    "text": "¿Qué ventaja principal proporciona el uso del patrón Mediator?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Aumenta la dependencia entre componentes"
+      },
+      {
+        "id": "B",
+        "text": "Permite que los componentes se comuniquen directamente"
+      },
+      {
+        "id": "C",
+        "text": "Facilita la reutilización de componentes desacoplándolos"
+      },
+      {
+        "id": "D",
+        "text": "Simplifica la interfaz de usuario"
+      }
+    ],
+    "correctOptionId": "B"
+  },
+  {
+    "id": 264,
+    "text": "¿Cuál es una de las responsabilidades clave de la clase EstudianteFacade.java?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Validar los datos de entrada directamente"
+      },
+      {
+        "id": "B",
+        "text": "Gestionar la base de datos"
+      },
+      {
+        "id": "C",
+        "text": "Servir como única interfaz entre la UI y la lógica del sistema"
+      },
+      {
+        "id": "D",
+        "text": "Implementar la lógica de negocio"
+      }
+    ],
+    "correctOptionId": "B"
+  },
+  {
+    "id": 265,
+    "text": "¿Qué sucede si se implementa mal el patrón Facade y se agregan muchas funciones no relacionadas en una sola fachada?",
+    "options": [
+      {
+        "id": "A",
+        "text": "El sistema se vuelve más desacoplado"
+      },
+      {
+        "id": "B",
+        "text": "Se pierde la utilidad del patrón Mediator"
+      },
+      {
+        "id": "C",
+        "text": "La fachada se convierte en una estructura compleja difícil de mantener"
+      },
+      {
+        "id": "D",
+        "text": "Mejora el rendimiento del sistema"
+      }
+    ],
+    "correctOptionId": "C"
+  },
+  {
+    "id": 266,
+    "text": "¿Cuál es el propósito principal del patrón Adapter?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Encapsular múltiples acciones dentro de una sola clase."
+      },
+      {
+        "id": "B",
+        "text": "Permitir que dos clases incompatibles trabajen juntas."
+      },
+      {
+        "id": "C",
+        "text": "Reducir el número de clases dentro del sistema."
+      },
+      {
+        "id": "D",
+        "text": "Establecer relaciones de herencia entre clases."
+      }
+    ],
+    "correctOptionId": "B"
+  },
+  {
+    "id": 267,
+    "text": "¿Qué componente del patrón Adapter traduce la interfaz de una clase a otra",
+    "options": [
+      {
+        "id": "A",
+        "text": "Target"
+      },
+      {
+        "id": "B",
+        "text": "Adaptee"
+      },
+      {
+        "id": "C",
+        "text": "Adapter"
+      },
+      {
+        "id": "D",
+        "text": "Cliente"
+      }
+    ],
+    "correctOptionId": "C"
+  },
+  {
+    "id": 268,
+    "text": "¿Cuál de las siguientes es una ventaja del patrón Command?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Aumenta la dependencia entre las clases."
+      },
+      {
+        "id": "B",
+        "text": "Permite encapsular una solicitud como un objeto."
+      },
+      {
+        "id": "C",
+        "text": "Reduce la legibilidad del sistema."
+      },
+      {
+        "id": "D",
+        "text": "Obliga a heredar múltiples clases."
+      }
+    ],
+    "correctOptionId": "B"
+  },
+  {
+    "id": 269,
+    "text": "¿Qué desventaja se puede presentar al usar excesivamente el patrón",
+    "options": [
+      {
+        "id": "A",
+        "text": "Reducción de extensibilidad del sistema."
+      },
+      {
+        "id": "B",
+        "text": "Necesidad de modificar el cliente constantemente."
+      },
+      {
+        "id": "C",
+        "text": "Incremento en la cantidad de clases."
+      },
+      {
+        "id": "D",
+        "text": "Incapacidad de programar acciones futuras."
+      }
+    ],
+    "correctOptionId": "C"
+  },
+  {
+    "id": 270,
+    "text": "¿En qué situación se recomienda aplicar el patrón Adapter?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Cuando se desea agrupar comandos relacionados."
+      },
+      {
+        "id": "B",
+        "text": "Al procesar eventos gráficos complejos."
+      },
+      {
+        "id": "C",
+        "text": "Cuando se necesita usar una clase existente cuya interfaz no coincide con la esperada."
+      },
+      {
+        "id": "D",
+        "text": "Al definir algoritmos recursivos complejos."
+      }
+    ],
+    "correctOptionId": "A"
+  }
+]
