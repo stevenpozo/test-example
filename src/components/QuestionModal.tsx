@@ -13,7 +13,9 @@ export function QuestionModal() {
     previousQuestion,
     answerQuestion,
     answers,
-    questions
+    questions,
+    mode,
+    isExamFinished
   } = useExamStore();
   
   const question = getCurrentQuestion();
@@ -58,6 +60,9 @@ export function QuestionModal() {
   const questionIndex = questions.findIndex(q => q.id === question.id);
   const currentAnswer = answers[question.id];
   const isCorrect = currentAnswer?.isCorrect;
+  
+  // In exam mode, only show feedback after exam is finished
+  const canShowFeedback = mode === 'practice' || (mode === 'exam' && isExamFinished);
   
   const handleOptionSelect = (optionId: string) => {
     setSelectedOption(optionId);
@@ -113,8 +118,12 @@ export function QuestionModal() {
             {question.options.map((option) => {
               const isSelected = selectedOption === option.id;
               const isCorrectOption = option.id === question.correctOptionId;
-              const showAsCorrect = showFeedback && isCorrectOption;
-              const showAsIncorrect = showFeedback && isSelected && !isCorrectOption;
+              const showAsCorrect = canShowFeedback && showFeedback && isCorrectOption;
+              const showAsIncorrect = canShowFeedback && showFeedback && isSelected && !isCorrectOption;
+              
+              // In exam mode (not finished), show selected option with blue style
+              const isExamInProgress = mode === 'exam' && !isExamFinished;
+              const showAsSelected = isExamInProgress && isSelected;
               
               return (
                 <button
@@ -123,16 +132,22 @@ export function QuestionModal() {
                   className={cn(
                     'w-full flex items-start gap-3 p-4 rounded-xl border-2 text-left transition-all duration-200',
                     'hover:border-primary/50 hover:bg-primary/5',
-                    !showFeedback && isSelected && 'border-primary bg-primary/10',
-                    !showFeedback && !isSelected && 'border-border bg-card',
+                    // Default styles
+                    !showAsCorrect && !showAsIncorrect && !showAsSelected && 'border-border bg-card',
+                    // Selected in exam mode
+                    showAsSelected && 'border-primary bg-primary/10',
+                    // Correct/Incorrect after exam or in practice
                     showAsCorrect && 'border-success bg-success/10 animate-pulse-success',
                     showAsIncorrect && 'border-destructive bg-destructive/10 animate-shake'
                   )}
                 >
                   <span className={cn(
                     'flex-shrink-0 w-8 h-8 rounded-lg flex items-center justify-center font-mono font-semibold text-sm transition-colors',
-                    !showFeedback && isSelected && 'bg-primary text-primary-foreground',
-                    !showFeedback && !isSelected && 'bg-muted text-muted-foreground',
+                    // Default
+                    !showAsCorrect && !showAsIncorrect && !showAsSelected && 'bg-muted text-muted-foreground',
+                    // Selected in exam mode
+                    showAsSelected && 'bg-primary text-primary-foreground',
+                    // Correct/Incorrect
                     showAsCorrect && 'bg-success text-success-foreground',
                     showAsIncorrect && 'bg-destructive text-destructive-foreground'
                   )}>
@@ -153,7 +168,7 @@ export function QuestionModal() {
           </div>
           
           {/* Feedback Message */}
-          {showFeedback && (
+          {canShowFeedback && showFeedback && (
             <div className={cn(
               'p-4 rounded-xl flex items-center gap-3 animate-scale-in',
               isCorrect ? 'bg-success/10 text-success' : 'bg-destructive/10 text-destructive'

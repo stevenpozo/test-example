@@ -8,7 +8,9 @@ import {
   Trash2, 
   RefreshCw,
   AlertTriangle,
-  CheckCircle2
+  CheckCircle2,
+  Shuffle,
+  RotateCcw
 } from 'lucide-react';
 import { cn } from '@/lib/utils';
 import { Button } from '@/components/ui/button';
@@ -23,7 +25,7 @@ export function Sidebar() {
   const [showConfirmDialog, setShowConfirmDialog] = useState(false);
   const fileInputRef = useRef<HTMLInputElement>(null);
   
-  const { questions, setQuestions, resetExam } = useExamStore();
+  const { questions, setQuestions, resetExam, shuffleQuestions, resetToOriginal, examConfig, setExamConfig } = useExamStore();
   
   const handleFileChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     const file = e.target.files?.[0];
@@ -110,6 +112,22 @@ export function Sidebar() {
     toast({
       title: 'Examen reiniciado',
       description: 'Todas las respuestas han sido borradas.',
+    });
+  };
+  
+  const handleShuffle = () => {
+    shuffleQuestions();
+    toast({
+      title: 'Preguntas mezcladas',
+      description: 'El orden de las preguntas ha sido aleatorizado.',
+    });
+  };
+  
+  const handleResetToOriginal = () => {
+    resetToOriginal();
+    toast({
+      title: 'Orden original restaurado',
+      description: 'Las preguntas han vuelto a su orden original.',
     });
   };
   
@@ -247,14 +265,32 @@ export function Sidebar() {
             <h3 className="font-medium text-sm text-muted-foreground uppercase tracking-wide">
               Acciones
             </h3>
-            <Button
-              variant="outline"
-              onClick={handleReset}
-              className="w-full gap-2 border-destructive/50 text-destructive hover:bg-destructive/10"
-            >
-              <Trash2 className="w-4 h-4" />
-              Reiniciar Respuestas
-            </Button>
+            <div className="space-y-2">
+              <Button
+                variant="outline"
+                onClick={handleReset}
+                className="w-full gap-2 border-destructive/50 text-destructive hover:bg-destructive/10"
+              >
+                <Trash2 className="w-4 h-4" />
+                Reiniciar Respuestas
+              </Button>
+              <Button
+                variant="outline"
+                onClick={handleShuffle}
+                className="w-full gap-2"
+              >
+                <Shuffle className="w-4 h-4" />
+                Mezclar Preguntas
+              </Button>
+              <Button
+                variant="outline"
+                onClick={handleResetToOriginal}
+                className="w-full gap-2"
+              >
+                <RotateCcw className="w-4 h-4" />
+                Orden Original
+              </Button>
+            </div>
           </section>
           
           {/* Legend */}

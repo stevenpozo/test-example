@@ -3,13 +3,29 @@ import { persist, createJSONStorage } from 'zustand/middleware';
 import { Question, UserAnswer, AnswerStatus, ExamStats } from '@/types/question';
 import { sampleQuestions } from '@/data/sampleQuestions';
 
+type ExamMode = 'practice' | 'exam';
+
+interface ExamConfig {
+  questionCount: number;
+  timeLimit: number; // in minutes
+}
+
 interface ExamState {
+  mode: ExamMode;
   questions: Question[];
+  originalQuestions: Question[];
   answers: Record<number, UserAnswer>;
   selectedQuestionId: number | null;
   isModalOpen: boolean;
+  examConfig: ExamConfig;
+  examStartTime: number | null;
+  examTimeRemaining: number | null; // in seconds
+  isExamFinished: boolean;
+  showExamResults: boolean;
+  isExamStarted: boolean;
   
   // Actions
+  setMode: (mode: ExamMode) => void;
   setQuestions: (questions: Question[]) => void;
   answerQuestion: (questionId: number, optionId: string) => void;
   openQuestion: (questionId: number) => void;
@@ -17,6 +33,14 @@ interface ExamState {
   nextQuestion: () => void;
   previousQuestion: () => void;
   resetExam: () => void;
+  shuffleQuestions: () => void;
+  resetToOriginal: () => void;
+  setExamConfig: (config: Partial<ExamConfig>) => void;
+  startExam: () => void;
+  restartExam: () => void;
+  finishExam: () => void;
+  updateTimeRemaining: (seconds: number) => void;
+  closeExamResults: () => void;
   
   // Getters
   getAnswerStatus: (questionId: number) => AnswerStatus;
@@ -27,13 +51,42 @@ interface ExamState {
 export const useExamStore = create<ExamState>()(
   persist(
     (set, get) => ({
+      mode: 'practice',
       questions: sampleQuestions,
+      originalQuestions: sampleQuestions,
       answers: {},
       selectedQuestionId: null,
       isModalOpen: false,
+      examConfig: {
+        questionCount: 80,
+        timeLimit: 120 // 2 hours
+      },
+      examStartTime: null,
+      examTimeRemaining: null,
+      isExamFinished: false,
+      showExamResults: false,
+      isExamStarted: false,
+      
+      setMode: (mode) => {
+        if (mode === 'exam') {
+          // Reset exam state when switching to exam mode
+          set({ 
+            mode,
+            isExamStarted: false,
+            isExamFinished: false,
+            showExamResults: false,
+            answers: {},
+            selectedQuestionId: null,
+            isModalOpen: false
+          });
+        } else {
+          set({ mode });
+        }
+      },
       
       setQuestions: (questions) => set({ 
         questions, 
+        originalQuestions: questions,
         answers: {},
         selectedQuestionId: null,
         isModalOpen: false
@@ -93,6 +146,96 @@ export const useExamStore = create<ExamState>()(
         isModalOpen: false
       }),
       
+      shuffleQuestions: () => {
+        const currentQuestions = get().questions;
+        const shuffled = [...currentQuestions].sort(() => Math.random() - 0.5);
+        set({ questions: shuffled });
+      },
+      
+      resetToOriginal: () => {
+        const original = get().originalQuestions;
+        set({ 
+          questions: [...original],
+          answers: {},
+          selectedQuestionId: null,
+          isModalOpen: false
+        });
+      },
+      
+      setExamConfig: (config) => {
+        set((state) => ({
+          examConfig: { ...state.examConfig, ...config }
+        }));
+      },
+      
+      startExam: () => {
+        const { examConfig, originalQuestions } = get();
+        
+        // Select random questions
+        const shuffled = [...originalQuestions].sort(() => Math.random() - 0.5);
+        const selectedQuestions = shuffled.slice(0, examConfig.questionCount);
+        
+        set({
+          mode: 'exam',
+          questions: selectedQuestions,
+          answers: {},
+          selectedQuestionId: null,
+          isModalOpen: false,
+          examStartTime: Date.now(),
+          examTimeRemaining: examConfig.timeLimit * 60, // convert to seconds
+          isExamFinished: false,
+          showExamResults: false,
+          isExamStarted: true
+        });
+      },
+      
+      restartExam: () => {
+        const { examConfig, originalQuestions } = get();
+        
+        // Select random questions
+        const shuffled = [...originalQuestions].sort(() => Math.random() - 0.5);
+        const selectedQuestions = shuffled.slice(0, examConfig.questionCount);
+        
+        set({
+          questions: selectedQuestions,
+          answers: {},
+          selectedQuestionId: null,
+          isModalOpen: false,
+          examStartTime: Date.now(),
+          examTimeRemaining: examConfig.timeLimit * 60,
+          isExamFinished: false,
+          showExamResults: false,
+          isExamStarted: true
+        });
+      },
+      
+      finishExam: () => {
+        set({
+          isExamFinished: true,
+          showExamResults: true,
+          examTimeRemaining: 0
+        });
+      },
+      
+      updateTimeRemaining: (seconds) => {
+        const current = get().examTimeRemaining;
+        if (current !== null && current > 0) {
+          const newTime = Math.max(0, seconds);
+          set({ examTimeRemaining: newTime });
+          
+          // Auto-finish if time runs out
+          if (newTime === 0 && !get().isExamFinished) {
+            get().finishExam();
+          }
+        }
+      },
+      
+      closeExamResults: () => {
+        set({
+          showExamResults: false
+        });
+      },
+      
       getAnswerStatus: (questionId) => {
         const answer = get().answers[questionId];
         if (!answer) return 'unanswered';
@@ -127,6 +270,7 @@ export const useExamStore = create<ExamState>()(
         // Ensure questions are always loaded from sampleQuestions
         if (state) {
           state.questions = sampleQuestions;
+          state.originalQuestions = sampleQuestions;
         }
       }
     }
