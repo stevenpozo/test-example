@@ -2324,7 +2324,7 @@
   },
   {
     "id": 102,
-    "text": "¿Qué gráfico se usa comúnmente para detectar valores atípicos en un conjunto de",
+    "text": "¿Qué gráfico se usa comúnmente para detectar valores atípicos en un conjunto de datos?",
     "options": [
       {
         "id": "A",
@@ -2447,7 +2447,7 @@
       },
       {
         "id": "B",
-        "text": "La probabilidad de obtener resultados iguales o más extremos si la hipótesis nula es"
+        "text": "La probabilidad de obtener resultados iguales o más extremos si la hipótesis nula es cierta"
       },
       {
         "id": "C",
@@ -2508,7 +2508,7 @@
   },
   {
     "id": 110,
-    "text": "¿Cuál de los siguientes es un método gráfico para evaluar la normalidad de un",
+    "text": "¿Cuál de los siguientes es un método gráfico para evaluar la normalidad de un conjunto de datos?",
     "options": [
       {
         "id": "A",
@@ -2573,11 +2573,11 @@
         "text": "Es una conversación dirigida, con un propósito especifico y que usa un formato de preguntas y respuestas."
       }
     ],
-    "correctOptionId": "A"
+    "correctOptionId": "B"
   },
   {
     "id": 113,
-    "text": "¿Cuál de las siguientes opciones representa la actividad que se debe realizar después",
+    "text": "¿Cuál de las siguientes opciones representa la actividad que se debe realizar después de diseñar y administrar una encuesta? ",
     "options": [
       {
         "id": "A",
@@ -2600,11 +2600,11 @@
   },
   {
     "id": 114,
-    "text": "¿Cuál de las siguientes opciones representa un planteamiento incorrecto en relación",
+    "text": "¿Cuál de las siguientes opciones representa un planteamiento incorrecto en relación con la población objetivo en una encuesta? ",
     "options": [
       {
         "id": "A",
-        "text": "las preguntas de la encuesta."
+        "text": "Es un conjunto representativo de personas que estén en condiciones de responder  a las preguntas de la encuesta. "
       },
       {
         "id": "B",
@@ -2719,7 +2719,7 @@
     "options": [
       {
         "id": "A",
-        "text": "umentar la comprensión sobre el fenómeno que nos concierne o nos interesa"
+        "text": "El proceso sistemático de recopilación y análisis de información (datos) para umentar la comprensión sobre el fenómeno que nos concierne o nos interesa"
       },
       {
         "id": "B",
@@ -2822,11 +2822,11 @@
         "text": "diseño UI (User Interface)"
       }
     ],
-    "correctOptionId": "A"
+    "correctOptionId": "B"
   },
   {
     "id": 124,
-    "text": "Está enérgicamente unido al diseño UX (User eXperience), siendo el estudio de las interacciones que realiza el usuario en una aplicación de software y su dispositivo como por ejemplo: uso de teclado, dispositivo táctil, tiempos invertidos en hacer clic, en",
+    "text": "Está enérgicamente unido al diseño UX (User eXperience), siendo el estudio de las interacciones que realiza el usuario en una aplicación de software y su dispositivo como por ejemplo: uso de teclado, dispositivo táctil, tiempos invertidos en hacer clic, en ampliar una sección, etc.  ",
     "options": [
       {
         "id": "A",
@@ -2941,7 +2941,7 @@
   },
   {
     "id": 129,
-    "text": "",
+    "text": "Con el fin de alcanzar la eficiencia en una aplicación web y la satisfacción del usuario se debe tomar en consideración para la evaluación los siguientes atributos: ",
     "options": [
       {
         "id": "A",
@@ -2964,7 +2964,7 @@
   },
   {
     "id": 130,
-    "text": "¿Qué guía de estilo para la Web explica sobre la navegación con teclado y otras",
+    "text": "¿Qué guía de estilo para la Web explica sobre la navegación con teclado y otras características de las interfaces de usuario a fin de que se beneficien a usuarios con discapacidades?  ",
     "options": [
       {
         "id": "A",
@@ -3010,7 +3010,7 @@
   },
   {
     "id": 132,
-    "text": "Para proporcionar una buena experiencia del usuario, los sitios web deben cumplir por tener una primera pintura de contenido de 1.8 segundos o menos, a fin de alcanzar este objetivo para la mayoría de los usuarios, un buen umbral para medir es el percentil 75 de las cargas de páginas, segmentadas entre los dispositivos móviles y las",
+    "text": "Para proporcionar una buena experiencia del usuario, los sitios web deben cumplir por tener una primera pintura de contenido de 1.8 segundos o menos, a fin de alcanzar este objetivo para la mayoría de los usuarios, un buen umbral para medir es el percentil 75 de las cargas de páginas, segmentadas entre los dispositivos móviles y las computadoras de escritorio. Seleccione a qué métrica de sitio web corresponde  ",
     "options": [
       {
         "id": "A",
@@ -3079,7 +3079,7 @@
   },
   {
     "id": 135,
-    "text": "Seleccione los principios importantes de la experiencia de usuario (UX) en",
+    "text": "Seleccione los principios importantes de la experiencia de usuario (UX) en aplicaciones de realidad aumentada (AR) ",
     "options": [
       {
         "id": "A",
@@ -3240,7 +3240,7 @@
   },
   {
     "id": 142,
-    "text": "¿Cómo se denomina el módulo de Metasploit utilizado para realizar tareas",
+    "text": "¿Cómo se denomina el módulo de Metasploit utilizado para realizar tareas como escaneo, captura o enumeración sin explotar vulnerabilidades? ",
     "options": [
       {
         "id": "A",
@@ -3282,11 +3282,11 @@
         "text": "Generar claves para conexiones seguras"
       }
     ],
-    "correctOptionId": "A"
+    "correctOptionId": "B"
   },
   {
     "id": 144,
-    "text": "En un esquema de cifrado híbrido (por ejemplo, en TLS), ¿qué rol suelen",
+    "text": "En un esquema de cifrado híbrido (por ejemplo, en TLS), ¿qué rol suelen desempeñar los algoritmos simétricos? ",
     "options": [
       {
         "id": "A",
@@ -3328,7 +3328,7 @@
         "text": "Resistencia a colisiones"
       }
     ],
-    "correctOptionId": "C"
+    "correctOptionId": "D"
   },
   {
     "id": 146,
@@ -3355,7 +3355,7 @@
   },
   {
     "id": 147,
-    "text": "¿Cuál de las siguientes técnicas es más efectiva para validar requisitos",
+    "text": "¿Cuál de las siguientes técnicas es más efectiva para validar requisitos ambiguos o mal entendidos? ",
     "options": [
       {
         "id": "A",
@@ -3378,7 +3378,7 @@
   },
   {
     "id": 148,
-    "text": "¿Qué característica distingue a un requisito validado de uno simplemente",
+    "text": "¿Qué característica distingue a un requisito validado de uno simplemente documentado?",
     "options": [
       {
         "id": "A",
@@ -3401,7 +3401,7 @@
   },
   {
     "id": 149,
-    "text": "¿Cuál de los siguientes riesgos es más probable si no se realiza una validación",
+    "text": "¿Cuál de los siguientes riesgos es más probable si no se realiza una validación adecuada de requisitos? ",
     "options": [
       {
         "id": "A",
@@ -3535,7 +3535,7 @@
         "text": "Es una forma de documentar únicamente los requisitos funcionales."
       }
     ],
-    "correctOptionId": "B"
+    "correctOptionId": "C"
   },
   {
     "id": 155,
@@ -3719,7 +3719,7 @@
         "text": "HTTP estándar"
       }
     ],
-    "correctOptionId": "A"
+    "correctOptionId": "C"
   },
   {
     "id": 163,
@@ -3815,7 +3815,7 @@
   },
   {
     "id": 167,
-    "text": "¿Qué paradigma de programación permite representar la lógica web mediante",
+    "text": "¿Qué paradigma de programación permite representar la lógica web mediante clases y objetos?",
     "options": [
       {
         "id": "A",
@@ -3834,7 +3834,7 @@
         "text": "Orientado a Objetos"
       }
     ],
-    "correctOptionId": "C"
+    "correctOptionId": "D"
   },
   {
     "id": 168,
@@ -3949,7 +3949,7 @@
         "text": "JSON"
       }
     ],
-    "correctOptionId": "A"
+    "correctOptionId": "C"
   },
   {
     "id": 173,
@@ -4110,7 +4110,7 @@
         "text": "Disco duro"
       }
     ],
-    "correctOptionId": "A"
+    "correctOptionId": "B"
   },
   {
     "id": 180,
@@ -4298,7 +4298,7 @@
   },
   {
     "id": 188,
-    "text": "¿Cuál de los siguientes motores es gratuito y de código abierto con una",
+    "text": "¿Cuál de los siguientes motores es gratuito y de código abierto con una comunidad activa?",
     "options": [
       {
         "id": "A",
@@ -4344,7 +4344,7 @@
   },
   {
     "id": 190,
-    "text": "¿Qué componente de la arquitectura de juegos en red gestiona la",
+    "text": "¿Qué componente de la arquitectura de juegos en red gestiona la comunicación entre jugadores?",
     "options": [
       {
         "id": "A",
@@ -4712,7 +4712,7 @@
   },
   {
     "id": 206,
-    "text": "Pregunta: ¿Qué clase se utiliza para crear widgets que pueden cambiar su",
+    "text": "Pregunta: ¿Qué clase se utiliza para crear widgets que pueden cambiar su contendio dinámicamente",
     "options": [
       {
         "id": "A",
@@ -4758,7 +4758,7 @@
   },
   {
     "id": 208,
-    "text": "Pregunta: ¿Qué función debe llamarse para actualizar a los listeners en un",
+    "text": "Pregunta: ¿Qué función debe llamarse para actualizar a los listeners en un ChangeNotifier?",
     "options": [
       {
         "id": "A",
@@ -4846,7 +4846,7 @@
         "text": "ListTile"
       }
     ],
-    "correctOptionId": "A"
+    "correctOptionId": "C"
   },
   {
     "id": 212,
@@ -4961,7 +4961,7 @@
         "text": "constructor"
       }
     ],
-    "correctOptionId": "B"
+    "correctOptionId": "C"
   },
   {
     "id": 217,
@@ -5057,7 +5057,7 @@
   },
   {
     "id": 221,
-    "text": "",
+    "text": "Dado el código que define estos tres puntos para un triángulo: new Point(posX + ancho, posY), new Point(posX + ancho, posY + alto), new Point(posX, posY + alto / 2) ¿hacia qué lado apunta el triángulo? ",
     "options": [
       {
         "id": "A",
@@ -5379,7 +5379,7 @@
   },
   {
     "id": 235,
-    "text": "¿Qué código de estado de respuesta HTTP indica que el usuario no está",
+    "text": "¿Qué código de estado de respuesta HTTP indica que el usuario no está autenticado para acceder al sitio? ",
     "options": [
       {
         "id": "A",
@@ -5444,7 +5444,7 @@
         "text": "Header"
       }
     ],
-    "correctOptionId": "B"
+    "correctOptionId": "C"
   },
   {
     "id": 238,
@@ -5540,7 +5540,7 @@
   },
   {
     "id": 242,
-    "text": "Las aplicaciones distribuidas tienen características específicas que las",
+    "text": "Las aplicaciones distribuidas tienen características específicas que las diferencian de las aplicaciones tradicionales. ¿Cuál de las siguientes es una \ncaracterística clave de las aplicaciones distribuidas? ",
     "options": [
       {
         "id": "A",
@@ -5586,7 +5586,7 @@
   },
   {
     "id": 244,
-    "text": "La computación en la nube ofrece diversas ventajas para las aplicaciones",
+    "text": "La computación en la nube ofrece diversas ventajas para las aplicaciones distribuidas. ¿Cuál de las siguientes es una característica de la computación en la nube? ",
     "options": [
       {
         "id": "A",
@@ -5609,7 +5609,7 @@
   },
   {
     "id": 245,
-    "text": "La orquestación de contenedores es esencial para gestionar aplicaciones",
+    "text": "La orquestación de contenedores es esencial para gestionar aplicaciones distribuidas complejas. ¿Cuál de las siguientes herramientas se utiliza comúnmente para orquestar contenedores? ",
     "options": [
       {
         "id": "A",
@@ -5632,7 +5632,7 @@
   },
   {
     "id": 246,
-    "text": "En las bases de datos distribuidas, la metodología de configuración es crucial para el rendimiento. ¿Cuál de las siguientes opciones es un enfoque común para",
+    "text": "En las bases de datos distribuidas, la metodología de configuración es crucial para el rendimiento. ¿Cuál de las siguientes opciones es un enfoque común para configurar bases de datos distribuidas? ",
     "options": [
       {
         "id": "A",
@@ -5678,7 +5678,7 @@
   },
   {
     "id": 248,
-    "text": "Para garantizar la coherencia en sistemas distribuidos, se utilizan algoritmos",
+    "text": "Para garantizar la coherencia en sistemas distribuidos, se utilizan algoritmos como la ______ de relojes y la ______ mutua, que evitan conflictos en el acceso a recursos compartidos. ",
     "options": [
       {
         "id": "A",
@@ -5701,7 +5701,7 @@
   },
   {
     "id": 249,
-    "text": "En la computación en la nube, ______ permite empaquetar aplicaciones en entornos aislados, mientras que ______ gestiona la escalabilidad y despliegue de esos",
+    "text": "En la computación en la nube, ______ permite empaquetar aplicaciones en entornos aislados, mientras que ______ gestiona la escalabilidad y despliegue de esos contenedores.",
     "options": [
       {
         "id": "A",
@@ -5747,7 +5747,7 @@
   },
   {
     "id": 251,
-    "text": "En sistemas distribuidos, el problema de la ___________ requiere algoritmos",
+    "text": "En sistemas distribuidos, el problema de la ___________ requiere algoritmos como Paxos o Raft para garantizar que todos los nodos acuerden un valor, mientras que la ___________ asegura que solo un proceso acceda a un recurso compartido a la vez. ",
     "options": [
       {
         "id": "A",
@@ -5793,7 +5793,7 @@
   },
   {
     "id": 253,
-    "text": "Para garantizar consistencia en bases de datos distribuidas, el teorema ___________ establece que es imposible lograr simultáneamente consistencia,",
+    "text": "Para garantizar consistencia en bases de datos distribuidas, el teorema ___________ establece que es imposible lograr simultáneamente consistencia, disponibilidad y tolerancia a particiones, mientras que la ___________ permite replicar datos con garantías de atomicidad. ",
     "options": [
       {
         "id": "A",
@@ -5816,7 +5816,7 @@
   },
   {
     "id": 254,
-    "text": "En seguridad distribuida, ___________ delega autorización mediante tokens",
+    "text": "En seguridad distribuida, ___________ delega autorización mediante tokens de acceso, mientras que ___________ cifra datos en tránsito para evitar interceptaciones. ",
     "options": [
       {
         "id": "A",
@@ -5839,7 +5839,7 @@
   },
   {
     "id": 255,
-    "text": "Para sincronizar relojes en sistemas distribuidos, el algoritmo ___________ utiliza marcas lógicas para ordenar eventos, mientras que ___________ corrige",
+    "text": "Para sincronizar relojes en sistemas distribuidos, el algoritmo ___________ utiliza marcas lógicas para ordenar eventos, mientras que ___________ corrige desviaciones basado en servidores de tiempo externos. ",
     "options": [
       {
         "id": "A",
@@ -5904,7 +5904,7 @@
         "text": "Editor"
       }
     ],
-    "correctOptionId": "D"
+    "correctOptionId": "C"
   },
   {
     "id": 258,
@@ -6042,7 +6042,7 @@
         "text": "Simplifica la interfaz de usuario"
       }
     ],
-    "correctOptionId": "B"
+    "correctOptionId": "C"
   },
   {
     "id": 264,
@@ -6065,7 +6065,7 @@
         "text": "Implementar la lógica de negocio"
       }
     ],
-    "correctOptionId": "B"
+    "correctOptionId": "C"
   },
   {
     "id": 265,
@@ -6161,7 +6161,7 @@
   },
   {
     "id": 269,
-    "text": "¿Qué desventaja se puede presentar al usar excesivamente el patrón",
+    "text": "¿Qué desventaja se puede presentar al usar excesivamente el patrón Command? ",
     "options": [
       {
         "id": "A",
